@@ -311,7 +311,7 @@ def topic_modeling(config):
 
         # Perform grid search with cross-validation
         grid_search = GridSearchCV(estimator=rf_classifier, param_grid=param_grid, cv=kf, n_jobs=-1, scoring='accuracy',
-                                   verbose=1)
+                                   verbose=3)
 
         # Under-sample the target variable
         rus = RandomUnderSampler(random_state=config['random_state'])
