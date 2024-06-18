@@ -1,0 +1,32 @@
+{
+  "random_state": 42,
+  "create_encoding_dictionary_flag": true,
+  "split_into_train_validation_and_test": {
+    "split_into_train_validation_and_test_flag": true,
+    "number_of_pairs": 200000,
+    "balance_rate": 0.5,
+    "train_size": 0.7,
+    "validation_size": 0.0005
+  },
+  "device": "cuda",
+  "encoding_max_length": 128,
+  "batch_size": 16,
+  "pooler_type": "NN",
+  "freeze_bert_layers_flag": true,
+  "threshold": 0.0,
+  "train_interval": 50,
+  "validation_interval": 50,
+  "save_model_interval": 5,
+  "metric": "auc",
+  "paths": {
+    "data_path": "data/data with categories -- clean.csv",
+    "encoding_dictionary_path": "preprocessing/encodings.pickle",
+    "X_train_path": "preprocessing/X_train.pickle",
+    "X_val_path": "preprocessing/X_val.pickle",
+    "X_test_path": "preprocessing/X_test.pickle",
+    "y_train_path": "preprocessing/y_train.pickle",
+    "y_val_path": "preprocessing/y_val.pickle",
+    "y_test_path": "preprocessing/y_test.pickle",
+    "model_save_path": "models"
+  }
+}

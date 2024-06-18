@@ -1,0 +1,90 @@
+{
+  "evaluation_mode": true,
+  "possible_tasks": [
+    "make_embeddings",
+    "grid_search",
+    "evaluation_per_category",
+    "make_clusters",
+    "clusters_analysis",
+    "topic_modeling"
+  ],
+  "possible_feature_types": [
+    "embeddings",
+    "tf_idf"
+  ],
+  "feature_types": "tf_idf",
+  "filter_categories": true,
+  "categories": [
+    "Mech_Engr",
+    "Trans"
+  ],
+  "tf_idf_params": {
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "task": "topic_modeling",
+  "random_state": 42,
+  "test_size": 0.2,
+  "only_Mech_Engr_and_Trans_records": true,
+  "LR_params": {
+    "max_iter": 2000,
+    "C": 0.01,
+    "penalty": "l2",
+    "solver": "saga"
+  },
+  "base_model": "microsoft/deberta-v3-base",
+  "tokenizer_params": {
+    "return_tensors": "pt",
+    "padding": true,
+    "truncation": true,
+    "max_length": 128
+  },
+  "paths": {
+    "data_path": "data/data_topping_modeling_train_set.csv",
+    "all_data_path": "data/clean_data_with_enrich.csv",
+    "data_topping_modeling_test_data_path": "data/data_topping_modeling_test_set.csv",
+    "data_with_clusters_embedding_path": "data/data_with_clusters_embedding.csv",
+    "data_with_clusters_tf_idf_path": "data/data_with_clusters_tf_idf.csv",
+    "data_topping_modeling_train_set_path": "data/data_topping_modeling_train_set.csv",
+    "data_topping_modeling_test_set_path": "data/data_topping_modeling_test_set.csv",
+    "topic_modeling_rf_classifier_path": "topic_modeling_rf_classifier.pickle",
+    "embeddings_path": "data/embeddings.pickle",
+    "df_sentences_path": "data/df_sentences.csv",
+    "embeddings_sbert_path": "data/embeddings_sbert.pickle",
+    "embeddings_reduced_path": "data/embeddings_reduced.pickle",
+    "df_sentences_sbert_with_clusters_path": "data/df_sentences_with_cluster_column.csv",
+    "topic_modeling_all_phrases_path": "topic_modeling_all_phrases.pickle",
+    "df_topics": "data/df_topics.csv",
+    "results_folder_path": "results",
+    "df_with_topic_features_path": "data/df_with_topic_features.csv",
+    "topic_modeling_feature_vector_path": "topic_modeling_feature_vector.pickle",
+    "topping_modeling_rf_classifier_path": "topping_modeling_rf_classifier.pickle"
+  },
+  "topic_modeling_flags": {
+    "split_data_flag": false,
+    "embeddings_sbert_flag": false,
+    "umap_flag": false,
+    "clustering_flag": false,
+    "topic_summarization": false,
+    "find_topics": false,
+    "create_topic_features": false,
+    "training": true
+  },
+  "umap": {
+    "n_neighbors": 10,
+    "n_components": 5,
+    "metric": "cosine"
+  },
+  "clustering": {
+    "metric": "euclidean",
+    "min_cluster_size": 7,
+    "cluster_selection_method": "eom"
+  },
+  "topic_summarization": {
+    "number_of_centroids_per_cluster": 2,
+    "number_of_nouns_per_cluster": 3,
+    "features_to_drop": ["uspc_class"]
+  }
+}

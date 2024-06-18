@@ -1,0 +1,4858 @@
+Feature,Importance
+type_token_ratio,0.04184432937876854
+skew_word_length,0.03835724582883723
+avg_word_length,0.03816585982359869
+syll_per_word,0.038008025716578145
+characters_per_word,0.03792807838870851
+char_count,0.03742177412770427
+syllables,0.03670550517367605
+words_per_sentence,0.036275712431769434
+word_count,0.0358199768735957
+long_words,0.033737847907640076
+complex_words,0.03263220041691438
+sentences,0.020785229614066054
+sentences_per_paragraph,0.02070122304568547
+median_word_length,0.016242739302918335
+Parent_Catgeory,0.009515783230861777
+user,0.008645292648732891
+system,0.008351293442281084
+one_if_male,0.008086010678143268
+device,0.0076552974803095935
+invention,0.007515525971891593
+assembly,0.007342366975805183
+method,0.007325873596307361
+surface,0.006506967546406222
+portion,0.006404292502207824
+end,0.0060109125377515
+disclosed,0.005925045854931464
+position,0.005864068392396156
+body,0.005620712164438726
+use,0.00561446604431168
+embodiment,0.005573842004923933
+apparatus,0.005537064780551957
+material,0.005009237545893179
+side,0.00490224462404353
+member,0.004799102150129096
+vehicle,0.004735756411207918
+support,0.0046764943424063765
+information,0.004558991690350987
+opening,0.004354905502275102
+control,0.004038318609785158
+element,0.003634291486238816
+component,0.003522227222633355
+area,0.0035004605135806168
+fluid,0.0034953077520517542
+location,0.003470578631537564
+mechanism,0.0034404378075982346
+communication,0.003400559171971074
+handle,0.0033988980606227052
+frame,0.00337698357986985
+container,0.0033669065210930496
+described,0.0033598098925195744
+housing,0.0033555741086017028
+cover,0.0033528823078286456
+data,0.0033439417403124416
+example,0.0032584491572280406
+air,0.003184471508251661
+computer,0.0031414957502110285
+direction,0.003110828016907027
+water,0.0031000840117117808
+attachment,0.003074447453607446
+part,0.0030555781777921046
+tool,0.0030495456116762564
+product,0.0030476412127853486
+flow,0.0030293760148767564
+shape,0.0030175239822194367
+panel,0.0030046778455275398
+herein,0.002967595650905788
+pressure,0.0029648751938937726
+movement,0.002908889775098649
+contact,0.0028856418837188646
+point,0.002860297604284892
+access,0.0028231152381363827
+power,0.0028198287396151785
+plate,0.0028189827268752196
+process,0.0027835916140670314
+source,0.00277846517248218
+operation,0.0026896994707313344
+object,0.0026523888710763173
+item,0.0026440039583891734
+database,0.0026199325603123423
+shaft,0.002588511769604386
+response,0.002482646519022932
+order,0.002465965795806791
+hole,0.0024659056908634086
+heat,0.0024467426676685867
+channel,0.0024106306962560207
+signal,0.0024076436421739964
+angle,0.00237724080691367
+gas,0.002372916726969108
+connection,0.002321725979689032
+place,0.002303862189762291
+aperture,0.0022782908279234855
+strap,0.0022757860903966053
+liquid,0.00224793187271803
+platform,0.0022442955496132307
+condition,0.002217094218116468
+combination,0.0021965109069919395
+rotation,0.002183175979221902
+fastener,0.002152942152387975
+wheel,0.0021528912626790474
+content,0.0020961993580666956
+leg,0.0020924526483657975
+blade,0.002052971193791347
+way,0.002046491404855489
+weight,0.001957817192230659
+slot,0.0019349846957324526
+respect,0.0019223173455255478
+customer,0.0019151467897513264
+aspect,0.0018932070335931546
+motion,0.0018599201215726367
+connector,0.0018592647819980978
+transaction,0.0018579636770798057
+coupling,0.0018071568527510283
+foot,0.001773447309059324
+bag,0.0017664213674758072
+insert,0.00175746374171496
+loop,0.0017520883861812959
+image,0.0017368782052228297
+payment,0.0017367142995765158
+delivery,0.001731013238530332
+release,0.0017219560290930777
+state,0.001695851749920016
+engagement,0.0016920262869257066
+compartment,0.0016918399741889588
+hook,0.001678053572999703
+positioning,0.0016756398863072895
+removal,0.0016483614890916765
+article,0.001617892214300676
+couple,0.0016169027324998597
+extension,0.001601512515070626
+processing,0.001601239588007474
+bracket,0.0015899266403779633
+metal,0.0015851291517473799
+food,0.0015823726630553195
+purchase,0.001577292675072752
+proximate,0.0015477667287139606
+grip,0.0015419928511185871
+lid,0.0015166659624622119
+track,0.001502180933693183
+pin,0.0015020667147928428
+garment,0.0014661219087911685
+action,0.0014635875392114866
+treatment,0.0014584801633212524
+activity,0.0014472725044364604
+passage,0.0014453793645596309
+wire,0.00144038468146202
+transport,0.0014363198055696949
+thereon,0.0014340014883442054
+fabric,0.0014257031175893267
+animal,0.0014210217276242648
+software,0.001415074315044114
+accessory,0.0014149909120005455
+board,0.001408523993943443
+clip,0.0014006806794601523
+addition,0.0013979420434723424
+hinge,0.001389241357396924
+receptacle,0.0013833895429107813
+flange,0.001379933420451624
+fuel,0.001378496323900909
+plastic,0.0013738322334447817
+box,0.0013595529507710342
+placement,0.0013362112655842904
+post,0.0013335395256249502
+equipment,0.0013228604402344291
+thereto,0.001305665428020647
+insertion,0.001303681282991703
+technique,0.0012867492830911282
+cable,0.0012830490749814922
+protection,0.00127217418942379
+bearing,0.001263832147258387
+building,0.0012582046497283106
+selection,0.0012579490418551868
+therethrough,0.0012482752307032686
+skin,0.0012394824557441645
+turn,0.0012221806516911982
+magnet,0.0012190735519421053
+clamp,0.0012017667770023099
+sealing,0.001147722019214936
+plant,0.0011377682951693724
+resistance,0.0011091231341302415
+damage,0.0010964985673979379
+ability,0.0010958582131475136
+hair,0.0010861661274353934
+installation,0.001075424852835623
+child,0.0010629926436707296
+implementation,0.0010620768120885265
+teeth,0.001060855478811839
+switch,0.0010596238654215
+measurement,0.001054077313077625
+beam,0.0010293120269497965
+combustion,0.0010161702963570767
+corner,0.0010146610890623459
+tracking,0.0009969587420029969
+clothing,0.0009724286193956506
+technology,0.0009563856598534459
+exhaust,0.0009409703940714919
+cross,0.0009383551811910188
+accordance,0.0009383389967169436
+detection,0.0009318037399087526
+friction,0.0008987802940387813
+advertising,0.0008795794227951262
+protrusion,0.0008780619029786
+debris,0.0008778134139094939
+relation,0.0008768600115402841
+thread,0.0008741832914134323
+efficiency,0.0008720242275806101
+feed,0.000852802164823677
+electrode,0.0008515835357680672
+proximity,0.0008377469148789563
+indicia,0.0008318703243409992
+fire,0.0008309535783462135
+agent,0.0008307825825959662
+injury,0.0008182745364607914
+gaming,0.0008146364231547637
+act,0.000813167051147744
+feedback,0.000810778648868898
+cartridge,0.000799067943614046
+roof,0.0007940804452228853
+shelf,0.0007886175089508926
+people,0.0007772216126641138
+axle,0.000763591412920191
+chair,0.0007634010161828298
+jaw,0.0007497753406665848
+interest,0.0007323198008888199
+transportation,0.0007224661812431149
+laser,0.0007167367104361859
+ice,0.0007064753042248371
+transporting,0.0007046998409450553
+reward,0.0007014299447265714
+conjunction,0.0006994432655233811
+wind,0.0006960267132182789
+brace,0.0006899048110115442
+manufacture,0.0006891173521747818
+wound,0.000687706638614698
+fund,0.0006800538763012732
+sheath,0.0006776872465565317
+projection,0.0006654328049241684
+footwear,0.0006537040317582092
+harness,0.0006495706559145622
+orifice,0.0006259902020764119
+communicates,0.0006258366268011075
+production,0.0006238765523348574
+hanger,0.000611858494085265
+improvement,0.0006085452655638551
+pivoting,0.0006034697464533052
+bristle,0.000596536591098841
+usage,0.0005918006320814202
+bit,0.000588467242398527
+advantage,0.0005790058283784694
+cargo,0.000575851421066361
+mat,0.0005756190705103918
+packaging,0.0005751866253345053
+insulation,0.0005725094834620923
+page,0.000547324147208576
+marking,0.0005457269237941933
+seller,0.0005401300833270456
+word,0.0005395293089551344
+overlap,0.0005122928407184613
+soil,0.0005084572743377159
+club,0.00049602124734066
+reverse,0.0004933420363289335
+furniture,0.00048022124214520425
+day,0.00047774839614425207
+baseball,0.0004777154280729379
+root,0.00047594791632713836
+assessment,0.00047472487425985124
+nail,0.0004737818110811286
+label,0.0004734971485929353
+dog,0.0004506636860078341
+vane,0.0004362635680631229
+rope,0.00043223483275974905
+transducer,0.0004187476731173575
+stud,0.0004171838424541575
+scoring,0.0004106272761201192
+cone,0.00039446088833489996
+coolant,0.000387610410632958
+tilt,0.0003677173892555294
+demand,0.00036467426936115957
+perforation,0.00036311083037112487
+character,0.0003622898731395396
+sand,0.00035952983519663243
+answer,0.00035941690226067437
+execution,0.0003554223138951057
+verification,0.00034725306399358095
+steam,0.000346891609364686
+trading,0.0003435950613016544
+inflation,0.000339648424254455
+aft,0.0003305375527129459
+organizing,0.00033033436340368654
+canister,0.00032076667621459473
+canopy,0.00031647745958107877
+recognition,0.00031539250173949463
+depression,0.00031109842128804747
+urine,0.0003079808964190782
+sock,0.00030797856292696214
+collision,0.0002969538311158778
+silicone,0.00029333870456504604
+apparel,0.0002792196214640411
+dirt,0.00027142291219157277
+medicine,0.0002692391784409415
+athlete,0.0002667181566944799
+bird,0.00025821631896859136
+stiffness,0.00025585560677884406
+swimming,0.0002555942998629436
+integration,0.00025442590181343476
+rigidity,0.00025196457233168354
+horse,0.0002496837684875198
+methodology,0.0002457018365737327
+hydrocarbon,0.00024383527144419416
+stimulus,0.0002416717631593013
+soap,0.00022920196664881812
+study,0.00022307811390570522
+yarn,0.00022098723582458392
+implantation,0.00022016710448103364
+opener,0.00022014333200936885
+parent,0.00020441891470084336
+dock,0.00020345374034671636
+brim,0.00019271558067917707
+sunlight,0.00018905757599516922
+auger,0.00018036756483250213
+cooperation,0.00017908219882320094
+flower,0.0001707113002902769
+bale,0.00016475503704376594
+extrusion,0.00015759279254188096
+glue,0.00015664608441267103
+grease,0.0001551489005175336
+cardboard,0.00015497453565233127
+trauma,0.00015291046331451221
+makeup,0.0001480990507307958
+furnace,0.00013634043294090246
+displaces,0.00013550219020662589
+meat,0.0001342786529510894
+cancer,0.00013373471488655237
+stitch,0.00013220393791907282
+fulfillment,0.0001293492534453139
+rodent,0.00012900416365811725
+detachment,0.00011996457232072439
+comment,0.00011119496279868055
+backflow,0.00010901381295869535
+elimination,0.0001059613646209727
+deer,9.968146464883121e-05
+paperboard,9.948951435509483e-05
+orbit,9.083503729623265e-05
+insured,8.805625388909546e-05
+trouser,8.559401408106962e-05
+lieu,8.366326492814904e-05
+herb,8.287517955228752e-05
+juice,8.020333631209352e-05
+waterfowl,7.768825578562488e-05
+tibia,7.766175600001232e-05
+lng,7.566309801420103e-05
+doppler,7.536167540472633e-05
+cannabis,7.340180239466481e-05
+suspender,7.263003528299866e-05
+splashing,6.762990014776182e-05
+proppant,6.667929167730265e-05
+hay,6.415730124142174e-05
+adaptation,6.234285581336877e-05
+manhole,5.7125206333288e-05
+ecommerce,5.494310801480498e-05
+ointment,4.042632177920023e-05
+nodule,3.7499388824221086e-05
+squirrel,3.564483779207926e-05
+annotation,2.8445901808607566e-05
+snake,2.7547033546073538e-05
+bruxism,2.3908086480716016e-05
+pre,1.856973459844272e-05
+wayside,1.5604305730062684e-05
+assertion,1.493206586017135e-05
+de,1.4670663059440778e-05
+sublimation,1.0942647089200165e-05
+recondition,7.758335462231577e-06
+cryoprobe,5.513206518325318e-06
+fmc,3.4476012580060812e-06
+ahs,2.0190788493516327e-06
+lcm,2.010989328266312e-06
+hald,7.254852841216381e-07
+the dance shoe,0.0
+the annular portion,0.0
+the aircraft,0.0
+the emitter,0.0
+the animation engine,0.0
+the annular groove,0.0
+the airfoil,0.0
+the animal,0.0
+the ambient light,0.0
+the amount,0.0
+the amplegs,0.0
+the embodiment,0.0
+the anchor cap,0.0
+the anchorage device,0.0
+the control system,0.0
+the aggregation,0.0
+the adjustment beam,0.0
+the adapter,0.0
+the adaptor,0.0
+the additional user,0.0
+the determined liquid fuel pressure,0.0
+the determination,0.0
+the address,0.0
+the adjustable garment,0.0
+the adjustable hook,0.0
+the adjustable stabilizer system,0.0
+the adjusted flame time,0.0
+the adjusting device,0.0
+the adjustment,0.0
+the detectability,0.0
+the aero bar,0.0
+the adjustment handle,0.0
+the depth limiter,0.0
+the degree,0.0
+the adjustment housing,0.0
+the deck,0.0
+the database,0.0
+the elongated wall,0.0
+the data storage portion,0.0
+the adjustment screw,0.0
+the data,0.0
+the aerial vehicle,0.0
+the dashboard,0.0
+the adjustment ring,0.0
+the apparatus & # 39,0.0
+the damping device,0.0
+the current,0.0
+the at least one operational attribute,0.0
+the cut portion,0.0
+the customizing piece,0.0
+the at least one orifice,0.0
+the at least one piercing member,0.0
+the customer & # 39 ; s device,0.0
+the at least one transmitter,0.0
+the custom item,0.0
+the curved teeth,0.0
+the elongated member,0.0
+the electric toothbrush,0.0
+the current and historical data,0.0
+the attachment assembly,0.0
+the at least one bolt carrier key,0.0
+the attachment bracket,0.0
+the attachment end,0.0
+the attachment facility,0.0
+the attachment layer,0.0
+the attachment vehicle,0.0
+the audio token,0.0
+the augmented reality environment,0.0
+the axial ax,0.0
+the axial section,0.0
+the axis,0.0
+the baby,0.0
+the back,0.0
+the at least one frame,0.0
+the cutout portion,0.0
+the damper element,0.0
+the cylindrical body portion,0.0
+the aperture,0.0
+the apparatus,0.0
+the actuator assembly,0.0
+the applicability indicator,0.0
+the elongated tip,0.0
+the application,0.0
+the application host server,0.0
+the elongated rod,0.0
+the applicator,0.0
+the applicator assembly,0.0
+the electric heating system,0.0
+the cylindrical head,0.0
+the cylinder housing,0.0
+the at least one attachment,0.0
+the cylinder,0.0
+the applicator member,0.0
+the appropriate amount,0.0
+the arcuate outer wall,0.0
+the cutting member,0.0
+the arm,0.0
+the arm rest,0.0
+the articulating arm,0.0
+the artificial urinary sphincter,0.0
+the assembly,0.0
+the associated platform,0.0
+the cutting head,0.0
+the actuator control command message,0.0
+the action item,0.0
+the actuator,0.0
+such an apparatus,0.0
+the energy delivery system,0.0
+the drive ratchet,0.0
+the drive piston,0.0
+the drive mechanism,0.0
+such a system,0.0
+the elastomeric tip,0.0
+the electric generator,0.0
+the drive beam,0.0
+the end-effector assembly,0.0
+the drill guide,0.0
+such a wheel,0.0
+such clip,0.0
+substantially lower hardness value,0.0
+such drag reduction,0.0
+such implementation,0.0
+such suggestion,0.0
+such the defibrillator,0.0
+the drain pipe portion,0.0
+such the heat pump system,0.0
+the door,0.0
+such user-peer indication,0.0
+the distal wall,0.0
+the distal tip,0.0
+the distal portion,0.0
+such a cover,0.0
+the drive shaft,0.0
+the actuation system,0.0
+the dual lock fastener,0.0
+stationary object,0.0
+the effect,0.0
+steel plate foundation,0.0
+the engine sensor,0.0
+sterile transfer,0.0
+the dustpan,0.0
+stimulation parameter,0.0
+stimulation pulse,0.0
+the dump zone controller,0.0
+the effluent,0.0
+the egg press,0.0
+stock assembly,0.0
+the energy pulse,0.0
+the egg processing device,0.0
+storage space,0.0
+straight edge,0.0
+the engine control unit,0.0
+stress-balancing trench,0.0
+stretching exercise,0.0
+the engine,0.0
+the dry portion,0.0
+the drone,0.0
+the egg processing head,0.0
+the drivetrain,0.0
+a bale unroller apparatus,0.0
+support stand,0.0
+the disposable powder-dispensing bulb,0.0
+the end,0.0
+the disable command,0.0
+the absence,0.0
+the access door,0.0
+the digital receipt,0.0
+the difficulty,0.0
+the differential lock assembly,0.0
+the accessory mounting system,0.0
+the end effector,0.0
+the accessory storage device,0.0
+the accessory support frame,0.0
+the accumulation,0.0
+the achieved reduction,0.0
+the display system,0.0
+the acquired image,0.0
+the diaphragm,0.0
+the cup portion,0.0
+the activation,0.0
+the active provider universe,0.0
+the active stimulator,0.0
+the enclosure,0.0
+the actual type,0.0
+the actuating device,0.0
+the device,0.0
+the actuation mechanism,0.0
+that information,0.0
+the discharge end,0.0
+the disclosed cross support connection structure,0.0
+the disclosed device,0.0
+the dispensing system,0.0
+a balancing channel,0.0
+surprisingly adsorption,0.0
+suspicious activity,0.0
+the dispenser body,0.0
+a balance workout routine,0.0
+system method,0.0
+system spinal implant,0.0
+t-slot connection insert apparatus,0.0
+the dispenser,0.0
+tamping explosive,0.0
+taxpayer information,0.0
+the disclosure,0.0
+the disclosed traction splint,0.0
+the disclosed technology,0.0
+the disclosed subject matter,0.0
+telltale rodent trap,0.0
+temperature regulation,0.0
+tethered decoy,0.0
+that,0.0
+the disclosed improved overreach boot,0.0
+that called game indicia,0.0
+that condition,0.0
+the back panel,0.0
+the backspacer,0.0
+the cup,0.0
+the elongate body member,0.0
+the clamp base,0.0
+the clamp structure,0.0
+the elongate body,0.0
+the clamping arm,0.0
+stand panel,0.0
+the corresponding result bid,0.0
+the clip,0.0
+the closed position,0.0
+the elevator car,0.0
+the closet,0.0
+the closure,0.0
+the clothing adjustment device,0.0
+the clutch,0.0
+the clutching mechanism,0.0
+the coconut endosperm,0.0
+the code,0.0
+the electronic commerce application,0.0
+the coffer system,0.0
+the coil,0.0
+the corresponding electrical signal,0.0
+the cold water bypass conduit,0.0
+the element,0.0
+the collapsible table,0.0
+the collar,0.0
+the collar portion,0.0
+the clamp,0.0
+the claim,0.0
+the collection,0.0
+the cladding layer,0.0
+the centering mechanism,0.0
+the coupling surface,0.0
+the central body,0.0
+the elongate driven rail,0.0
+the central body ring,0.0
+the coupling assembly,0.0
+the central cavity,0.0
+the coupling,0.0
+the electromagnet,0.0
+the central structure,0.0
+the centralized location,0.0
+the coupler,0.0
+the centralized server,0.0
+the centrifugal section,0.0
+the ceramic body,0.0
+the chain,0.0
+the count-down sequence,0.0
+the chamber,0.0
+the channel,0.0
+the cosmetic formulation,0.0
+the check-in information,0.0
+the chopstick,0.0
+the christmas tree disposal bag,0.0
+the circular object therebetween,0.0
+the circumferential direction,0.0
+the collar shaping device,0.0
+the collision avoidance module,0.0
+the ced,0.0
+the connecting wall portion,0.0
+the connection arm,0.0
+the connection assembly,0.0
+the connection frame,0.0
+the electronic controller,0.0
+the connection spool,0.0
+the connectivity,0.0
+the electronic device,0.0
+the connector,0.0
+the connector rod,0.0
+the consist power system,0.0
+the container,0.0
+the container assembly,0.0
+the conveyor,0.0
+the container body,0.0
+the container member,0.0
+the container portion,0.0
+the convenience,0.0
+the controller logic,0.0
+the context,0.0
+the contoured stowable seat,0.0
+the control assembly,0.0
+the controller,0.0
+the controllable firing pattern firearm system,0.0
+the control paradigm,0.0
+the control parameter,0.0
+the conveyor articulation joint,0.0
+the connecting member,0.0
+the combination,0.0
+the connected panel edge,0.0
+the combination automated-service and self-service store,0.0
+the combination backpack,0.0
+the combined radar,0.0
+the comminution device,0.0
+the communication connection,0.0
+the companion animal,0.0
+the component,0.0
+the component support hook,0.0
+the composite body,0.0
+the composition,0.0
+the compressed air,0.0
+the compressible rod,0.0
+the compression element,0.0
+the computer processer,0.0
+the computing device,0.0
+the coronary sinus,0.0
+the computing platform,0.0
+the core member,0.0
+the computing system,0.0
+the core,0.0
+the concentrate,0.0
+the cord,0.0
+the cooking grill,0.0
+the electronic display,0.0
+the conduit,0.0
+the center section,0.0
+the electrical system,0.0
+the back scrubber,0.0
+the base wall,0.0
+the basin,0.0
+the beach cart,0.0
+the beacon,0.0
+the bearing body,0.0
+the bellow,0.0
+the beveled edge,0.0
+the beveling cutter,0.0
+the beverage container cover,0.0
+the bha,0.0
+the bi-level tank,0.0
+the bicycle wheel anchor,0.0
+the biomass processor,0.0
+the biopsy unit,0.0
+the bird problem,0.0
+the bit,0.0
+the bit carrier,0.0
+the bladder,0.0
+the blade,0.0
+the blade body,0.0
+the blade section,0.0
+the blind threaded hole,0.0
+the block,0.0
+the blocking,0.0
+the blood,0.0
+the blower assembly,0.0
+the baseline condition data,0.0
+the base unit,0.0
+the body,0.0
+the base sheet,0.0
+the cross seal device,0.0
+the crankshaft,0.0
+the back-side,0.0
+the backer board,0.0
+the control unit,0.0
+the backspan,0.0
+the bag,0.0
+the bag bundle,0.0
+the crank shaft,0.0
+the bag retention vessel/bag diameter,0.0
+the covering,0.0
+the bait attachment member,0.0
+the baking tray,0.0
+the balancing channel,0.0
+the ball,0.0
+the bandage,0.0
+the bar section opening,0.0
+the barber chair,0.0
+the barrel,0.0
+the base,0.0
+the base connector,0.0
+the base frame assembly,0.0
+the base member,0.0
+the base portion,0.0
+the base segment,0.0
+the blowout preventer milling assembly,0.0
+the body portion,0.0
+the efficiency,0.0
+the cable,0.0
+the cake,0.0
+the cover,0.0
+the calendar system,0.0
+the cam,0.0
+the camshaft,0.0
+the camshaft guide member,0.0
+the candidate search result,0.0
+the cantilever support,0.0
+the cap,0.0
+the elongate member,0.0
+the capability,0.0
+the car seat,0.0
+the card,0.0
+the carrier,0.0
+the carrier body,0.0
+the carrying case,0.0
+the cart,0.0
+the carton,0.0
+the cartridge,0.0
+the case,0.0
+the casement,0.0
+the casing,0.0
+the catch,0.0
+the catheter,0.0
+the catheter tube,0.0
+the cable handling apparatus,0.0
+the buttress material,0.0
+the bolt assembly,0.0
+the button,0.0
+the boot,0.0
+the boring head,0.0
+the bottom,0.0
+the bottom chamber,0.0
+the bottom panel,0.0
+the bottom portion,0.0
+the bottom wall,0.0
+the bow portion,0.0
+the bowl,0.0
+the brace,0.0
+the brace locking mechanism,0.0
+the bracing face,0.0
+the bracket,0.0
+the bracket assembly,0.0
+the bracket body,0.0
+the bracket ring,0.0
+the brake lock,0.0
+the brassiere apparatus,0.0
+the breath,0.0
+the elongate rigid column,0.0
+the breathing pattern,0.0
+the bucket bottom,0.0
+the bucket construction,0.0
+the buoyant object,0.0
+the burner,0.0
+the cavity,0.0
+pressurized gas supply,0.0
+stainless steel,0.0
+inexpensive and easily replaceable surface,0.0
+infused beverage,0.0
+inhalation device,0.0
+inner drum perforation,0.0
+inner surface,0.0
+input cable,0.0
+input torque,0.0
+instruction system,0.0
+insurance discount,0.0
+integrated aiming element,0.0
+interactive data,0.0
+interchangeable cover,0.0
+interchanging wheel tire,0.0
+interconnected rib,0.0
+interior wall ceiling,0.0
+interlocking profile,0.0
+internal and external panel,0.0
+internal combustion diesel engine system,0.0
+internal piping,0.0
+interventional medical procedure,0.0
+intravascular device system,0.0
+a bar section,0.0
+inventory ordering,0.0
+issuing credit card,0.0
+it,0.0
+it associated main blade,0.0
+a barrel,0.0
+individual one,0.0
+it main latching position,0.0
+increasing propulsion,0.0
+high pressure liquid chromatography,0.0
+high replacement cost,0.0
+high water content,0.0
+higher power output,0.0
+hingedly interconnected belt module,0.0
+hitch accessory mount,0.0
+hoof thrush,0.0
+hose bed,0.0
+housing wheel engine,0.0
+human body activity,0.0
+hydraulic actuator,0.0
+hydraulic fluid,0.0
+hydrocarbon stream,0.0
+identity information exchange,0.0
+illuminated shelving system,0.0
+implant spinal construct system instrument,0.0
+implant system,0.0
+implant system instrument,0.0
+improved capability,0.0
+improved conveyor belt,0.0
+improved design,0.0
+in one embodiment,0.0
+incision expanders,0.0
+inclination metallic rod,0.0
+increased flexibility,0.0
+it distal end,0.0
+it path,0.0
+helical guide,0.0
+male connector tube,0.0
+manual directional control,0.0
+manual or automatic distribution mode,0.0
+manufacturing efficiency,0.0
+marketing automation,0.0
+a bar member,0.0
+mechanical movement mechanism,0.0
+medication delivery,0.0
+melted wax,0.0
+a bar length,0.0
+menstrual flow,0.0
+a bank note processing machine,0.0
+method apparatus system,0.0
+method device,0.0
+method system,0.0
+method system computer-readable medium,0.0
+military personnel,0.0
+mitigating action,0.0
+mobile device,0.0
+monitoring positioning,0.0
+more specifically present invention,0.0
+more specifically the treatment comprises,0.0
+most six protrusion,0.0
+motion sensing technology,0.0
+motion-related information-indicating system,0.0
+motor data,0.0
+male thread,0.0
+mail item,0.0
+it side,0.0
+magnet system,0.0
+it straight configuration,0.0
+it user,0.0
+itinerary data,0.0
+key area,0.0
+key element,0.0
+ladar transmission,0.0
+landing aircraft,0.0
+large batch size,0.0
+lateral movement,0.0
+lateral support,0.0
+law enforcement security,0.0
+le than 1 square meter,0.0
+leg cast,0.0
+leg support,0.0
+light emitter,0.0
+live ammunition,0.0
+livestock animal,0.0
+localized stabilization,0.0
+location information,0.0
+longer piece,0.0
+low frequency electrical signal,0.0
+lower frame post,0.0
+lumbar support,0.0
+machine system,0.0
+machine-implemented method,0.0
+high delta pressure,0.0
+helical groove,0.0
+movement interaction,0.0
+electrical communication,0.0
+electrical energy,0.0
+electromagnetic radiation,0.0
+electronic device,0.0
+elongated metal panel,0.0
+a base,0.0
+emergency evacuation procedure,0.0
+emergency maneuver,0.0
+a barrel cam,0.0
+end cap,0.0
+engine degradation,0.0
+enterprise performance management,0.0
+entrance and exit guide portion,0.0
+environmental condition data,0.0
+equally spaced point,0.0
+ergonomically wrapping article,0.0
+example embodiment,0.0
+example system,0.0
+exemplary hat,0.0
+exemplary use,0.0
+exercise data,0.0
+exercise equipment,0.0
+exhaust cycle,0.0
+exhaust gas recirculation,0.0
+existing equipment,0.0
+existing ostomy appliance design,0.0
+electrical current,0.0
+electric motor,0.0
+exterior and interior side,0.0
+either side,0.0
+each,0.0
+each adjacent pair,0.0
+each chamber,0.0
+each channel,0.0
+each drawer & # 39 ; s,0.0
+each end,0.0
+each having aligned disc gang,0.0
+each individual mirror,0.0
+each inner side panel,0.0
+each layer,0.0
+each manifold,0.0
+each panel,0.0
+each remote subscriber,0.0
+each row,0.0
+each shelf,0.0
+each side portion comprises,0.0
+each tapered extension proximal,0.0
+each tile cavity,0.0
+each upright post,0.0
+each wedge,0.0
+easily layering jewelry,0.0
+easy access,0.0
+easy application,0.0
+either a femur,0.0
+either a solid and/or a liquid substance,0.0
+extended and retracted position,0.0
+extremely high-pressure compressor,0.0
+heat loss,0.0
+fluidic element,0.0
+football generate,0.0
+foreign matter,0.0
+forming rotor blade assembly,0.0
+four corner,0.0
+fracturing method,0.0
+frame part,0.0
+fraud detection,0.0
+free flow,0.0
+front and trailing edge,0.0
+fuel vapor recirculation,0.0
+gang assembly,0.0
+garment surface,0.0
+gas-separator ’ tank,0.0
+generating phase,0.0
+geographic map metadata,0.0
+geometric end,0.0
+gps data,0.0
+grape vine cane,0.0
+graphene nanomaterials,0.0
+grip pad,0.0
+growing plant,0.0
+hands-free breast pumping,0.0
+hands-free transport,0.0
+head assembly,0.0
+heat exchange,0.0
+fluted proximal and distal portion,0.0
+fluidic communication,0.0
+fan blade pitch setting,0.0
+fluid pressure,0.0
+fast and easy installation,0.0
+fence rail,0.0
+filamentary material,0.0
+film phosphorescent paint,0.0
+financial asset,0.0
+first and second aperture,0.0
+first and second face,0.0
+first and second friction pivot joint assembly,0.0
+first and second handle,0.0
+first and second jaw member,0.0
+first and second plate,0.0
+first and second position,0.0
+first and second shoulder strap securement pad,0.0
+first and second slit,0.0
+first signal,0.0
+first spike,0.0
+five retention fixture,0.0
+flashcard review,0.0
+flex hinge or tear-away area,0.0
+flexible backing paper,0.0
+flexible material,0.0
+flotation device,0.0
+flow meter,0.0
+fluid communication,0.0
+fluid dispenser,0.0
+mounting face,0.0
+multiple defined time segment,0.0
+squint compensation,0.0
+public opinion,0.0
+radially oriented discontinuity,0.0
+reactive feedback,0.0
+real estate transaction,0.0
+real-time equirectangular projection,0.0
+real-time monitoring,0.0
+real-time video,0.0
+received gps signal,0.0
+record interaction information,0.0
+reduced weight,0.0
+refreshable braille display device,0.0
+registration data,0.0
+reinforced strap,0.0
+related component,0.0
+related system,0.0
+related system method,0.0
+relative rotation,0.0
+releasably couple a parachute,0.0
+removable attachment,0.0
+removable chilling panel,0.0
+removable debris,0.0
+removable stair tread,0.0
+repellent or attractant formulation,0.0
+reposition teeth,0.0
+respective one,0.0
+respectively engaging recess,0.0
+purchase prediction,0.0
+provided herein,0.0
+response cue,0.0
+proper balance,0.0
+pivot arm drive mechanism primary shaft,0.0
+pivotable pivoting motor arm,0.0
+plastic bag,0.0
+plastic metal wood,0.0
+plate knob support,0.0
+plumbing fixture,0.0
+popping popcorn,0.0
+a ball stud,0.0
+portland cement clinker,0.0
+a ball portion,0.0
+pre-licensing requirement,0.0
+preformed bag,0.0
+present embodiment,0.0
+present flight relevant information,0.0
+present invention,0.0
+press fitted insertion,0.0
+pressure and/or fluid flow,0.0
+pressurized fluid,0.0
+the equipment storage apparatus,0.0
+preventative measure,0.0
+process vessel,0.0
+processing and monitoring rebate,0.0
+processing purchase,0.0
+product data,0.0
+production system,0.0
+respiratory and metabolic monitoring,0.0
+riser portion,0.0
+physical simulation,0.0
+semantic content similarity scoring,0.0
+sequential connection,0.0
+several benefit,0.0
+several different embodiment,0.0
+severe side load,0.0
+sexual pleasure,0.0
+shower assembly,0.0
+a ball,0.0
+side wall,0.0
+side-walls,0.0
+significant drawback,0.0
+similar hinged joint,0.0
+small purse,0.0
+smoke containment,0.0
+smooth ground ball play,0.0
+snow skiing,0.0
+social and presentation skill,0.0
+soft tissue,0.0
+solar power system,0.0
+some,0.0
+some embodiment,0.0
+some example,0.0
+some instance,0.0
+sonar signal,0.0
+spatially distinctive transmit beam group,0.0
+sprinkler head combination,0.0
+sensor assembly,0.0
+self myofascial release therapies/exercise program,0.0
+risk mitigation service,0.0
+selected promotion,0.0
+rolling telescopic platform,0.0
+rope assembly,0.0
+rotary knife,0.0
+rotational motion,0.0
+rotational power,0.0
+rotor blade assembly,0.0
+safety measure,0.0
+sale opportunity,0.0
+salt-water fish,0.0
+sanitary convenient and/or environmentally-friendly alternative,0.0
+scaling-up,0.0
+screw nut,0.0
+sealing material,0.0
+search result,0.0
+search system,0.0
+seat assembly,0.0
+second clasp member,0.0
+second mounting interface,0.0
+second set,0.0
+secondary air injection,0.0
+secondary cooling conduit,0.0
+securable fitted head accessory combination,0.0
+securement element,0.0
+seismic data,0.0
+selected bending force rating,0.0
+pipe machining apparatus,0.0
+phishing content,0.0
+multiple embodiment,0.0
+one mode,0.0
+one or more aperture,0.0
+one or more bearing plate,0.0
+one or more biological target,0.0
+one or more blade,0.0
+one or more blank,0.0
+one or more buckle sensor,0.0
+one or more common characteristic,0.0
+one or more computing device,0.0
+one or more container,0.0
+one or more data source,0.0
+one or more depression,0.0
+one or more device,0.0
+one or more disclosed embodiment,0.0
+one or more display surface,0.0
+one or more drawer-receiving space,0.0
+one or more first inner pin,0.0
+one or more first interaction,0.0
+one or more handle,0.0
+one or more ice object mold region,0.0
+one or more image,0.0
+one or more inelastic strap section,0.0
+one or more insert,0.0
+one or more locking pin,0.0
+one or more marker,0.0
+one or more merchant,0.0
+one or more angle bracket,0.0
+one implementation,0.0
+one or more parameter,0.0
+one exemplary,0.0
+multiple sensor,0.0
+multiplication table,0.0
+mutual rotation,0.0
+my “ slotted fastener,0.0
+navigation data,0.0
+neuronal tissue,0.0
+new equipment,0.0
+new fastening device,0.0
+new technology concept,0.0
+non-limiting example,0.0
+non-promotion content,0.0
+novel stretching exercise,0.0
+nozzle tip holder,0.0
+numerous small elastomer nodule,0.0
+obliquely angled guide edge,0.0
+occipital tractioning member,0.0
+oil gas,0.0
+one alternate embodiment,0.0
+one aspect,0.0
+one component,0.0
+one directional flow,0.0
+one embodiment,0.0
+one embodiment a method,0.0
+one end,0.0
+one example,0.0
+one or more moveable object,0.0
+one or more processor,0.0
+pet food,0.0
+opposite end,0.0
+organism growth destruction,0.0
+other attachment feature,0.0
+other battery operated portable soldering iron,0.0
+other data,0.0
+other database,0.0
+other disclosed subject matter,0.0
+other embodiment,0.0
+other event,0.0
+other example,0.0
+other item,0.0
+other mounting surface,0.0
+other novelty object,0.0
+other suitable material,0.0
+outer wheel,0.0
+oven appliance,0.0
+parking information,0.0
+particular embodiment,0.0
+particular key cut,0.0
+payment amount,0.0
+payment transaction,0.0
+penetrator assembly,0.0
+percutaneous detection,0.0
+peripheral nerve stimulation,0.0
+personalized purchasing information,0.0
+pest control system,0.0
+opposite lateral surface,0.0
+opposing panel,0.0
+one or more pump,0.0
+opposed side,0.0
+one or more rib,0.0
+one or more rocket stage,0.0
+one or more segment,0.0
+one or more shaped charge,0.0
+one or more stock product,0.0
+one or more support member,0.0
+one or more suspension strand,0.0
+one or more switch,0.0
+one or more system,0.0
+one or more table surface,0.0
+one or more tensioning strand,0.0
+one or more tent pod,0.0
+one or more track,0.0
+one or more user-feedback value,0.0
+one or more vehicle control transfer event,0.0
+one reverse speed ratio,0.0
+one seat,0.0
+one side,0.0
+online purchase,0.0
+online shopping and self-service shopping,0.0
+only information,0.0
+open and closed position,0.0
+a ballistic shield,0.0
+operational communication,0.0
+operational performance,0.0
+the engine system,0.0
+the eye,0.0
+the espcp,0.0
+the signal,0.0
+the sifting panel,0.0
+the sidewall,0.0
+the side plate,0.0
+the shutoff switch,0.0
+the shunt,0.0
+the shopping cart bagging station,0.0
+the shoe sole cover accessory,0.0
+the shoe cover,0.0
+the shell,0.0
+the shelf unit,0.0
+the shelf support,0.0
+the sheathing retention assembly,0.0
+the sheath,0.0
+the shape angle scoop,0.0
+the shape,0.0
+the sign,0.0
+the signal generator,0.0
+the shaft,0.0
+the sill plate bracket,0.0
+the snow,0.0
+the snap configuration,0.0
+the small-volume nebulizer,0.0
+the sma actuator,0.0
+the slot,0.0
+the slit,0.0
+the sliding member,0.0
+the slidable panel,0.0
+the sleeve structure,0.0
+the sleeve portion,0.0
+the sleeve,0.0
+the slanted surface,0.0
+the skylight,0.0
+the size,0.0
+the sipper water structure,0.0
+the shaft support,0.0
+the shade tube,0.0
+the social networking system,0.0
+the second truss,0.0
+the second support mechanism,0.0
+the second support,0.0
+the second structure,0.0
+the second side,0.0
+the second shaft,0.0
+the second sensor,0.0
+the second section,0.0
+the second pre-paid payment account,0.0
+the second portion,0.0
+the second polarization,0.0
+the second opening,0.0
+the second object identification,0.0
+the second message,0.0
+the second member,0.0
+the second mechanism,0.0
+the second tray portion,0.0
+the second turbine stage,0.0
+the setting body,0.0
+the second winglet surface,0.0
+the set,0.0
+the server system,0.0
+the series-circuit,0.0
+the series,0.0
+the separator,0.0
+the sensing device,0.0
+the semi-rigid scope guide tube,0.0
+the seller,0.0
+the self-leveling front-end loader,0.0
+the selectively sealable fluid conduit,0.0
+the segment,0.0
+the securing piece,0.0
+the section,0.0
+the secondary blade,0.0
+the secondary air pump,0.0
+the snow blower,0.0
+the social security number,0.0
+the second major surface,0.0
+the subject disclosure,0.0
+the stud,0.0
+the strut,0.0
+the structure,0.0
+the structural member,0.0
+the strip spring,0.0
+the strip,0.0
+the string attachment member,0.0
+the strap,0.0
+the strainer,0.0
+the stored kinetic energy,0.0
+the stored interaction,0.0
+the step member,0.0
+the step,0.0
+the stent body,0.0
+the stem assembly,0.0
+the subject,0.0
+the subject invention,0.0
+the steerable guidewire,0.0
+the subject matter,0.0
+the support tray assembly,0.0
+the support structure,0.0
+the support shaft,0.0
+the support pillow,0.0
+the support member housing,0.0
+the support frame,0.0
+the support apparatus,0.0
+the support,0.0
+the sun visor,0.0
+the suction cup,0.0
+the suction conduit,0.0
+the substructure,0.0
+the substrate,0.0
+the subset,0.0
+the subject technology,0.0
+the steering control system,0.0
+the steerable antenna module,0.0
+the sock,0.0
+the speaker,0.0
+the span,0.0
+the spacing tool,0.0
+the spacer insert,0.0
+the spacer,0.0
+the spacecraft body,0.0
+the spacecraft,0.0
+the sorting rule,0.0
+the sorted object,0.0
+the solution,0.0
+the solid stem,0.0
+the solid one-piece target,0.0
+the soil surface,0.0
+the soffit vent,0.0
+the socket assembly,0.0
+the socket,0.0
+the spatula blade,0.0
+the spider bushing assembly,0.0
+the stator vane connection system,0.0
+the spinal implant,0.0
+the stator seal element,0.0
+the starch oil,0.0
+the standing desk,0.0
+the stand panel,0.0
+the stanchion,0.0
+the staking,0.0
+the stabilized attachment assembly,0.0
+the spring force,0.0
+the spring,0.0
+the spreader,0.0
+the sprayer valve,0.0
+the spout,0.0
+the sporting event,0.0
+the splitter,0.0
+the spindle,0.0
+the second material,0.0
+the second limb,0.0
+the processing unit,0.0
+the recipient,0.0
+the recess,0.0
+the receptacle,0.0
+the receiving compartment,0.0
+the receiver receives,0.0
+the receiver pin lock,0.0
+the received value,0.0
+the received data,0.0
+the receive signal,0.0
+the rear wheel,0.0
+the rear wall,0.0
+the rear,0.0
+the real-time data,0.0
+the re-threading tool,0.0
+the raw vibration data,0.0
+the ratchet mechanism,0.0
+the rechargeable battery,0.0
+the recliner mechanism,0.0
+the rain gutter diverter system,0.0
+the recoil spring guide rod,0.0
+the removable element,0.0
+the removable cover comprises material,0.0
+the removable cage,0.0
+the relief valve,0.0
+the release layer,0.0
+the reinforcing structure,0.0
+the registration information,0.0
+the registration,0.0
+the registered investor,0.0
+the regenerator,0.0
+the refill unit,0.0
+the reduction mitigation,0.0
+the recover,0.0
+the reconfigurable panel,0.0
+the recommendation,0.0
+the ramped end,0.0
+the rail coupling assembly,0.0
+the reservoir cavity,0.0
+the proximal end,0.0
+the protective handle,0.0
+the protective cover,0.0
+the protective cap,0.0
+the protection mechanism,0.0
+the prosthetic foot,0.0
+the prosthetic device,0.0
+the prosthetic,0.0
+the propellant,0.0
+the promotion program offering system,0.0
+the projection,0.0
+the projecting sidewall,0.0
+the projectile,0.0
+the programming control circuit,0.0
+the program module,0.0
+the product,0.0
+the protector,0.0
+the proximal opening,0.0
+the rail,0.0
+the proximal portion,0.0
+the radius hinge assembly,0.0
+the radio/processing module,0.0
+the radio signal transmission,0.0
+the radiatively-heated cooking mechanism,0.0
+the rack apparatus,0.0
+the question,0.0
+the query,0.0
+the pylon,0.0
+the puzzle game,0.0
+the pusher fan hub surface,0.0
+the purpose,0.0
+the pump casing,0.0
+the pump and control mechanism,0.0
+the pump,0.0
+the pulley system,0.0
+the reservoir,0.0
+the respired gas,0.0
+the second leg,0.0
+the seat frame,0.0
+the seat assembly,0.0
+the sealing material,0.0
+the sealing assembly,0.0
+the sealed releasable connection,0.0
+the seal housing,0.0
+the seal body,0.0
+the seal,0.0
+the screen unit,0.0
+the screen material,0.0
+the screed plate,0.0
+the screed assembly,0.0
+the scooter,0.0
+the scattered light,0.0
+the scarf,0.0
+the saw blade,0.0
+the seat belt,0.0
+the seat member,0.0
+the same or different volume,0.0
+the seat pad,0.0
+the second jaw body,0.0
+the second hub member,0.0
+the second fastening element,0.0
+the second fastener,0.0
+the second face,0.0
+the second end portion,0.0
+the second end,0.0
+the second electrode,0.0
+the second connector,0.0
+the second connecting part,0.0
+the second component,0.0
+the second clamp portion,0.0
+the second attachment point,0.0
+the seating configuration,0.0
+the seat pan,0.0
+the same spatial location,0.0
+the said system,0.0
+the rest,0.0
+the rigid backing,0.0
+the rfid device,0.0
+the reverse trike attachment,0.0
+the retrofit,0.0
+the retracted position,0.0
+the retention system,0.0
+the retention panel,0.0
+the retention condition,0.0
+the retaining mechanism,0.0
+the retaining collar,0.0
+the retained skewer,0.0
+the resulting pressure drop,0.0
+the resultant relatively reduced temperature difference,0.0
+the result,0.0
+the restraint,0.0
+the restraining bar,0.0
+the rfid sensing system,0.0
+the rim gear,0.0
+the rotor assembly,0.0
+the ring,0.0
+the rotor,0.0
+the rotational motion,0.0
+the rotation control element,0.0
+the rotation,0.0
+the rotating motor shaft,0.0
+the rotating bracket,0.0
+the rotatable element,0.0
+the rotary knob,0.0
+the rope,0.0
+the roof shingle installation apparatus,0.0
+the roof,0.0
+the rod member,0.0
+the rod,0.0
+the riser asset,0.0
+the ring portion,0.0
+the surface,0.0
+the surfactant mixture,0.0
+the surgical device,0.0
+this way,0.0
+this system,0.0
+this specification,0.0
+this second axis,0.0
+this process,0.0
+this manner removal,0.0
+this manner,0.0
+this invention,0.0
+this inputted information,0.0
+this equipment,0.0
+this embodiment,0.0
+this disclosure,0.0
+this device,0.0
+this data,0.0
+this assembly,0.0
+this apparatus,0.0
+this unique foam roller,0.0
+this wearing configuration,0.0
+this,0.0
+thixotropic molding,0.0
+transducer element,0.0
+transcutaneous measurement,0.0
+transaction information,0.0
+training exercise,0.0
+training bunting,0.0
+training apparatus,0.0
+training and instruction module,0.0
+traffic barrier,0.0
+traction device,0.0
+trackable criterion,0.0
+toy figure glitter shape,0.0
+top inner wall,0.0
+tilt angle,0.0
+tibial insert,0.0
+those profile,0.0
+this abstract,0.0
+third-party data,0.0
+transvascular access device,0.0
+the wrap-around garment,0.0
+the wood log,0.0
+the withdrawal,0.0
+the wire stabilization device,0.0
+the wire,0.0
+the winery,0.0
+the winch,0.0
+the width,0.0
+the wholesaler,0.0
+the wheel plate,0.0
+the wheel,0.0
+the wellbore sealing system,0.0
+the welding system,0.0
+the weight end,0.0
+the weight,0.0
+the wedge,0.0
+the working channel,0.0
+the wrapping portion,0.0
+these site,0.0
+the writing sheet,0.0
+these issue,0.0
+these functional metric,0.0
+these feature,0.0
+these embodiment,0.0
+these bracket,0.0
+thermal enhancement,0.0
+thermal energy,0.0
+thermal communication,0.0
+therapeutic oil,0.0
+therapeutic irradiation,0.0
+therapeutic benefit,0.0
+them,0.0
+their usage,0.0
+the zirconium alloy,0.0
+the zipper grip,0.0
+transportation transaction,0.0
+treatment aquarium water,0.0
+the survey,0.0
+writable material,0.0
+which harm,0.0
+which,0.0
+when engaged secures,0.0
+webpage content,0.0
+watermelon slicer,0.0
+water line control system,0.0
+water and non-aqueous medium,0.0
+waste service,0.0
+waistband element,0.0
+video clip,0.0
+vibration response,0.0
+venue ticket buyback,0.0
+vent opening,0.0
+vehicle control system,0.0
+a bait attachment member,0.0
+wind/surface energy loss,0.0
+yoga mat,0.0
+various quick-connect tool head,0.0
+zero nox,0.0
+3d printing,0.0
+45 degree angle,0.0
+a,0.0
+a .,0.0
+a 4-way directional valve,0.0
+a baby bottle,0.0
+a baby bottle sensor,0.0
+a back face,0.0
+a backend server,0.0
+a backhoe assembly,0.0
+a backlit display system,0.0
+a backpack,0.0
+a backpressure flapper valve,0.0
+a bag,0.0
+a bag dispenser,0.0
+various type,0.0
+various product,0.0
+trigger-actuated gripper,0.0
+unintended movement,0.0
+two splitboard ski,0.0
+two portion,0.0
+two output,0.0
+two or more tab,0.0
+two or more puzzle piece,0.0
+two or more gripping arm,0.0
+two oil shield,0.0
+two input,0.0
+two half,0.0
+two end face,0.0
+two end,0.0
+two embodiment,0.0
+two conduit,0.0
+two bucket-based leg-receiving aperture,0.0
+trip planning feature,0.0
+unauthorized access,0.0
+unmanned aerial vehicle,0.0
+various other method,0.0
+upper and lower flange,0.0
+various method,0.0
+various location,0.0
+various embodiment,0.0
+various device system assembly kit,0.0
+various configuration,0.0
+various attachment,0.0
+various aspect exemplary embodiment,0.0
+various aspect,0.0
+user specific financial information,0.0
+user control input,0.0
+user comfort,0.0
+a baking cup,0.0
+a baking tray body,0.0
+usb charging,0.0
+upper and lower link arm,0.0
+the wearer & # 39 ; s body,0.0
+the wearer,0.0
+the wearable device,0.0
+the top cover,0.0
+the top,0.0
+the toothbrush,0.0
+the tool portion,0.0
+the tool holder,0.0
+the tool,0.0
+the tonneau,0.0
+the tongue,0.0
+the tong operating device,0.0
+the toll related data,0.0
+the toilet brush,0.0
+the toggle body,0.0
+the toe-side and heel-side connection,0.0
+the tip material,0.0
+the timer,0.0
+the time set module,0.0
+the top and bottom edge,0.0
+the top panel,0.0
+the threshold signal,0.0
+the top surface,0.0
+the transition,0.0
+the transfer portion,0.0
+the transaction initiation signal,0.0
+the transaction,0.0
+the training email,0.0
+the trailer,0.0
+the trading device,0.0
+the tractor,0.0
+the track suspension system,0.0
+the track,0.0
+the toy,0.0
+the touch screen,0.0
+the torso garment,0.0
+the torque limiter,0.0
+the toroidal continuously variable transmission,0.0
+the tie plate distribution apparatus,0.0
+the threshold assembly,0.0
+the waveform,0.0
+the tarp,0.0
+the target holder,0.0
+the target,0.0
+the tapered distal-end portion,0.0
+the tank,0.0
+the tailgate striker,0.0
+the tail portion,0.0
+the system device,0.0
+the system,0.0
+the synthetic eye model,0.0
+the swirl vane cuff,0.0
+the swing base,0.0
+the swimmer,0.0
+the swap candidate,0.0
+the suspension member,0.0
+the suspension arm,0.0
+the target merchant,0.0
+the task category,0.0
+the threshold,0.0
+the task location,0.0
+the threaded insert,0.0
+the threaded bore,0.0
+the thigh,0.0
+the thickness,0.0
+the thermal target,0.0
+the thermal conductor member,0.0
+the thermal biomarker,0.0
+the tensioning strap,0.0
+the tensioning device,0.0
+the tension/compression member,0.0
+the tensile member,0.0
+the template plate,0.0
+the temperature sensitive heating element,0.0
+the temperature control system,0.0
+the tdps,0.0
+the transition duct,0.0
+the transition map,0.0
+the trap,0.0
+the vertical girts,0.0
+the vehicle coin dispenser,0.0
+the vehicle & # 39 ; s orientation,0.0
+the vehicle,0.0
+the various domain,0.0
+the variable-color region,0.0
+the variable orifice flow device,0.0
+the valve seat,0.0
+the valve plate,0.0
+the valve body,0.0
+the valve assembly,0.0
+the valve,0.0
+the value,0.0
+the vaginal laxity/uterine prolapse device,0.0
+the utilization,0.0
+the utensil,0.0
+the vehicle operator,0.0
+the vertical motor,0.0
+the tray,0.0
+the vertical support,0.0
+the waterproof water aerobic hair cover,0.0
+the water-resistant coating facilitates,0.0
+the water supply tube,0.0
+the water supply locknut,0.0
+the water flow,0.0
+the water,0.0
+the waste receptacle assembly,0.0
+the wallet,0.0
+the wall unit,0.0
+the wall,0.0
+the waistband,0.0
+the waist neck,0.0
+the waist,0.0
+the wagon,0.0
+the virtual content object,0.0
+the user-specified category,0.0
+the user verification process,0.0
+the user interface,0.0
+the user identifier,0.0
+the turbine wheel assembly,0.0
+the turbine wheel,0.0
+the turbine section,0.0
+the tubular portion,0.0
+the tubular,0.0
+the tube portion,0.0
+the tube,0.0
+the trolley beam,0.0
+the trigger control unit,0.0
+the trigger actuator,0.0
+the trigger,0.0
+the trencher,0.0
+the treatment tip,0.0
+the tray compartment,0.0
+the tray assembly,0.0
+the turbocharger,0.0
+the two boat,0.0
+the two-lateral brace,0.0
+the upper face,0.0
+the user device,0.0
+the user & # 39 ; s hand,0.0
+the user,0.0
+the use,0.0
+the upright bar,0.0
+the upper receiver assembly,0.0
+the upper end,0.0
+the type,0.0
+the upper and lower receiver portion,0.0
+the upper and lower body,0.0
+the unique design,0.0
+the undulation rope,0.0
+the umbrella,0.0
+the ultrasonically activated bristle,0.0
+the processor,0.0
+the processing system,0.0
+the ett,0.0
+the heat-generating component,0.0
+the heat transfer loop,0.0
+the heat source,0.0
+the heat sink,0.0
+the heat exchanger tube insert,0.0
+the heat exchanger,0.0
+the heat exchange system,0.0
+the heat chamber,0.0
+the headset,0.0
+the head unit,0.0
+the head strap,0.0
+the head portion,0.0
+the head member,0.0
+the head,0.0
+the hat,0.0
+the harvesting machine,0.0
+the heat treatment apparatus,0.0
+the heated storage container,0.0
+the handle section,0.0
+the heater,0.0
+the hollow handle,0.0
+the hollow guard,0.0
+the holder,0.0
+the hive body,0.0
+the hinge connection,0.0
+the hinge assembly,0.0
+the hinge,0.0
+the high top golf shoe,0.0
+the high pressure compressor,0.0
+the helmet shell,0.0
+the height-adjustable table,0.0
+the heating layer,0.0
+the heating element,0.0
+the heater circuit,0.0
+the heater assembly,0.0
+the handrail,0.0
+the handle member,0.0
+the home interior item,0.0
+the goal,0.0
+the gimbal processor,0.0
+the geothermal pad,0.0
+the generator,0.0
+the generated email message,0.0
+the general characteristic,0.0
+the gear assembly,0.0
+the gear,0.0
+the gasket,0.0
+the gaseous fuel control chamber,0.0
+the gas turbine engine,0.0
+the gas supply line,0.0
+the gas spring,0.0
+the gas charging system,0.0
+the gas,0.0
+the garment,0.0
+the glove,0.0
+the gps module,0.0
+the handle crossing portion,0.0
+the graph,0.0
+the handle assembly,0.0
+the handle and gas supply line,0.0
+the handle,0.0
+the hand suspension fixture,0.0
+the hand hygiene apparatus,0.0
+the hair,0.0
+the gusset insert,0.0
+the guidance device,0.0
+the growth,0.0
+the ground,0.0
+the groove,0.0
+the grip,0.0
+the grille,0.0
+the grill,0.0
+the grappler,0.0
+the hollow interior,0.0
+the hood,0.0
+the garden tool,0.0
+the insert,0.0
+the input member,0.0
+the input extension part,0.0
+the inner-cylindrical surface,0.0
+the inner wheel,0.0
+the inner surface,0.0
+the inner shell,0.0
+the inner plank,0.0
+the inner panel,0.0
+the inner member,0.0
+the inner housing,0.0
+the inner end,0.0
+the inner drum,0.0
+the inner container wall,0.0
+the inner bore,0.0
+the inlet conduit,0.0
+the input shaft,0.0
+the insert body,0.0
+the inlay tray portion,0.0
+the insert housing,0.0
+the interior,0.0
+the interactive doll assembly,0.0
+the integration housing,0.0
+the integration,0.0
+the integrated sink and dish strainer system,0.0
+the integrated collar,0.0
+the integral sheet,0.0
+the intake system,0.0
+the intake compression power,0.0
+the insulation material,0.0
+the insulated vessel,0.0
+the installation hub,0.0
+the inside edge,0.0
+the insertion tool,0.0
+the insertion guide,0.0
+the inlet and outlet port,0.0
+the injected fuel,0.0
+the hook,0.0
+the identifying sequence,0.0
+the hydraulic pump,0.0
+the hydraulic pressure,0.0
+the hydraulic cylinder,0.0
+the hydraulic circuit,0.0
+the human organism,0.0
+the hub section,0.0
+the hub,0.0
+the hrrds,0.0
+the housing part,0.0
+the housing assembly,0.0
+the housing,0.0
+the housekeeping cart drawer,0.0
+the horizontal railing,0.0
+the hooking portion,0.0
+the hook body,0.0
+the identified user profile,0.0
+the ifs,0.0
+the inhaler housing,0.0
+the ignition element,0.0
+the infrared sauna lamp,0.0
+the infrared image,0.0
+the information,0.0
+the infant crib,0.0
+the inertial measurement,0.0
+the indirect bonding tray,0.0
+the indicia,0.0
+the inclinometer,0.0
+the incinerating container,0.0
+the improved superimposed standing valve increase,0.0
+the implement shaft,0.0
+the implement coupler,0.0
+the implement,0.0
+the implantable mesh,0.0
+the impact force,0.0
+the gardening tool,0.0
+the garage,0.0
+the processing device,0.0
+the first connector,0.0
+the first connecting part,0.0
+the first clamp portion,0.0
+the first casing,0.0
+the first bottom frame,0.0
+the first barrier element,0.0
+the first attribute,0.0
+the first and second rotation link,0.0
+the first and second plate,0.0
+the first and second guide groove,0.0
+the first and second end,0.0
+the first and second downhole tubular member,0.0
+the first and second cylindrical body,0.0
+the first and second component,0.0
+the first and second actuator,0.0
+the first adapter,0.0
+the first connecting strap,0.0
+the first device processor,0.0
+the firearm,0.0
+the first electrode,0.0
+the first pivot feature,0.0
+the first passage,0.0
+the first opening,0.0
+the first mounting point,0.0
+the first module,0.0
+the first material,0.0
+the first load arm,0.0
+the first insulated portion,0.0
+the first housing,0.0
+the first hole,0.0
+the first hinge joint,0.0
+the first fastening element,0.0
+the first end portion,0.0
+the first end link member,0.0
+the first end,0.0
+the firebox,0.0
+the fire extinguisher,0.0
+the first portion,0.0
+the facial hair,0.0
+e.g . advertising information graphic,0.0
+the extinguisher nozzle,0.0
+the external surface,0.0
+the external contact,0.0
+the exterior mounting face,0.0
+the extension panel,0.0
+the extended position,0.0
+the extended configuration,0.0
+the extendable boom,0.0
+the expander,0.0
+the expanded down-scaled segment,0.0
+the exchange,0.0
+the example milk storage system,0.0
+the example method,0.0
+the event,0.0
+the eyewear device,0.0
+the fairing assembly,0.0
+the finned platform,0.0
+the fan,0.0
+the finger grip portion,0.0
+the financing offer,0.0
+the fin,0.0
+the filter housing,0.0
+the filter,0.0
+the fill,0.0
+the file,0.0
+the field game system,0.0
+the femur,0.0
+the femoral component,0.0
+the feeder chain,0.0
+the fastener system,0.0
+the fastener assembly,0.0
+the fastener,0.0
+the fan blade,0.0
+the first polarization,0.0
+the first pressure transducer,0.0
+the gamer,0.0
+the front and rear edge,0.0
+the frame,0.0
+the forward end,0.0
+the formation,0.0
+the form,0.0
+the forceps,0.0
+the force module,0.0
+the force level assessment instruction,0.0
+the footwear,0.0
+the footrest mechanism,0.0
+the footrest,0.0
+the foot stretcher assembly,0.0
+the foot mop,0.0
+the foot,0.0
+the foldable tote bag,0.0
+the foldable frame,0.0
+the frame structure,0.0
+the front edge,0.0
+the fluid supply system,0.0
+the front end,0.0
+the game feature,0.0
+the game,0.0
+the funneling apparatus,0.0
+the funnel portion,0.0
+the fulcrum end,0.0
+the fuel vaporizer,0.0
+the fuel injection signal,0.0
+the fuel cell,0.0
+the fryer debris catcher,0.0
+the front-loading laundry basket,0.0
+the front-end loader,0.0
+the front wheel,0.0
+the front wall,0.0
+the front side,0.0
+the front panel,0.0
+the foldable container blank,0.0
+the fluid pressure relief conduit,0.0
+the first sensor,0.0
+the flagstick,0.0
+the fitted portion,0.0
+the first winglet surface,0.0
+the first waterproof portion,0.0
+the first wall,0.0
+the first user,0.0
+the first truss,0.0
+the first tray portion,0.0
+the first support mechanism,0.0
+the first support,0.0
+the first structure,0.0
+the first snap,0.0
+the first side surface,0.0
+the first side,0.0
+the first shaft,0.0
+the first set,0.0
+the fixture,0.0
+the flange,0.0
+the fluid passage,0.0
+the flange bearing,0.0
+the fluid flow path,0.0
+the fluid end,0.0
+the fluid delivery assembly,0.0
+the fluid container,0.0
+the fluid conduit,0.0
+the fluid circulation path,0.0
+the fluid cap cavity,0.0
+the fluid,0.0
+the flight envelope,0.0
+the flexible scope assembly,0.0
+the flexible receptacle,0.0
+the flexible protrusion,0.0
+the flap,0.0
+the flanged sleeve,0.0
+the flange portion,0.0
+the interior area,0.0
+the interior compartment,0.0
+the interior mounting face,0.0
+the panel body,0.0
+the pan,0.0
+the palm side,0.0
+the pallet container,0.0
+the pair,0.0
+the padlock,0.0
+the pad,0.0
+the pacifier,0.0
+the p-trap,0.0
+the oxygen delivery device,0.0
+the overlay,0.0
+the overlapping wall,0.0
+the outside,0.0
+the output shaft,0.0
+the output forcer rod,0.0
+the outlet tube,0.0
+the panel,0.0
+the panel frame horizontal extrusion,0.0
+the outer shaft,0.0
+the paper,0.0
+the perimeter member,0.0
+the perimeter,0.0
+the perforation,0.0
+the percutaneous delivery,0.0
+the pepper spray module,0.0
+the pedestal structure,0.0
+the payment request,0.0
+the payment provider,0.0
+the patient incision,0.0
+the patient health record collection,0.0
+the patient data,0.0
+the passage,0.0
+the partition,0.0
+the participant,0.0
+the part,0.0
+the outer sleeve,0.0
+the outer plank,0.0
+the perimeter wall,0.0
+the open beverage container,0.0
+the online fitness coach,0.0
+the one or more thickened segment,0.0
+the one or more rod holding member,0.0
+the one or more request component,0.0
+the one or more projectile mass,0.0
+the one or more processor,0.0
+the one or more object,0.0
+the one or more dispenser nozzle,0.0
+the offset deforming fender attachment bracket,0.0
+the obtaining,0.0
+the obtained information,0.0
+the observation,0.0
+the object,0.0
+the nozzle,0.0
+the novel system,0.0
+the online system,0.0
+the open bore,0.0
+the outer peripheral surface,0.0
+the open position,0.0
+the outer layer,0.0
+the outer end,0.0
+the outer edge recess,0.0
+the outer cap,0.0
+the outboard lever,0.0
+the oscillation,0.0
+the ornamental member,0.0
+the orientation,0.0
+the organizer,0.0
+the option,0.0
+the optimization,0.0
+the operator control,0.0
+the operator,0.0
+the operation,0.0
+the opening,0.0
+the perimeter pipe,0.0
+the periphery,0.0
+the interior region,0.0
+the present disclosure,0.0
+the present application,0.0
+the presence,0.0
+the preload assembly,0.0
+the preliminary offer,0.0
+the preform,0.0
+the preferred embodiment,0.0
+the power transmission cable,0.0
+the power takeoff,0.0
+the power supply,0.0
+the power line,0.0
+the power driver,0.0
+the pouch,0.0
+the post disc and post ball,0.0
+the post,0.0
+the positioning shaft,0.0
+the present condition data,0.0
+the present disclosure system method,0.0
+the position,0.0
+the present invention,0.0
+the process,0.0
+the privacy system,0.0
+the primer,0.0
+the primary wheel,0.0
+the primary chamber,0.0
+the primary caretaker check-in value,0.0
+the prevention,0.0
+the pressurized fluid,0.0
+the pressure sensor,0.0
+the pressure relief valve,0.0
+the pressure equalizing port prevent compressor,0.0
+the pressure container,0.0
+the pressure,0.0
+the present sliding assembly,0.0
+the present invention relate,0.0
+the positioning assembly,0.0
+the portal communicates,0.0
+the permeable membrane,0.0
+the pizza,0.0
+the pivot stud,0.0
+the pivot arm,0.0
+the pipe flange,0.0
+the pinion,0.0
+the pin limit,0.0
+the pin,0.0
+the pilot fluid passage,0.0
+the piercing tip,0.0
+the piece,0.0
+the pickup truck,0.0
+the pick-up device,0.0
+the pick up tool,0.0
+the pet waste vacuum,0.0
+the pet confinement apparatus,0.0
+the permeable wall,0.0
+the pivoting assembly,0.0
+the placement member,0.0
+the portable urinal,0.0
+the planar member,0.0
+the portable pet ramp,0.0
+the polymer portion,0.0
+the polycrystalline diamond body,0.0
+the pole cover,0.0
+the pocket,0.0
+the plush toy,0.0
+the plurality,0.0
+the plunger,0.0
+the plumbing fixture,0.0
+the player & # 39 ; s game card,0.0
+the player,0.0
+the platform,0.0
+the plate,0.0
+the plant growing apparatus,0.0
+the planetary gear set,0.0
+the novel design,0.0
+the nipple,0.0
+the nightlight module,0.0
+the locating pin,0.0
+the loading position,0.0
+the loading,0.0
+the load wheel assembly,0.0
+the load platform,0.0
+the liquid pump,0.0
+the liquid portion,0.0
+the liquid fuel,0.0
+the liquid delivery module,0.0
+the linking structure,0.0
+the linking platform,0.0
+the linkage,0.0
+the link,0.0
+the linear actuator system,0.0
+the lighted mirror segment,0.0
+the lifting bolt,0.0
+the loading unit,0.0
+the locating pin assembly,0.0
+the lid,0.0
+the lock,0.0
+the longitudinally extending bore,0.0
+the locomotive,0.0
+the locking structure,0.0
+the locking piece,0.0
+the locking mechanism lock,0.0
+the locking mechanism,0.0
+the locking hub,0.0
+the locking device,0.0
+the locker assembly,0.0
+the lockable hinge,0.0
+the lock member,0.0
+the lock fix,0.0
+the lock collar,0.0
+the lock body,0.0
+the lock base,0.0
+the lid section,0.0
+the lever member,0.0
+the nibp sensor,0.0
+the kiosk application,0.0
+the jump rope,0.0
+the jewelry system,0.0
+the jaw,0.0
+the jar,0.0
+the ironing parameter,0.0
+the inventive device,0.0
+the invention,0.0
+the interstage seal assembly,0.0
+the internal valve,0.0
+the internal spring assembly,0.0
+the internal gear,0.0
+the interlocking roof shingle,0.0
+the interior wall,0.0
+the interior volume,0.0
+the interior surface,0.0
+the key,0.0
+the knob,0.0
+the lever,0.0
+the knob body,0.0
+the letter,0.0
+the length,0.0
+the leg,0.0
+the led light,0.0
+the led,0.0
+the leash assembly,0.0
+the lead,0.0
+the layer,0.0
+the launch vehicle,0.0
+the launch system,0.0
+the latex vinyl,0.0
+the latch pin,0.0
+the latch member,0.0
+the latch body,0.0
+the laminate,0.0
+the looped portion,0.0
+the louvered vane assembly,0.0
+the lower edge,0.0
+the mounting surface,0.0
+the mounting portion,0.0
+the mounting platform,0.0
+the mounting member,0.0
+the mounting hole,0.0
+the mounting head,0.0
+the mounting bracket,0.0
+the mounting bar,0.0
+the motor-driven compressor assembly,0.0
+the motor,0.0
+the monitoring circuit,0.0
+the modular box,0.0
+the modular armor system,0.0
+the mobile device,0.0
+the mobile computing device,0.0
+the mirror-image planetary-gear assembly,0.0
+the mounting structure,0.0
+the mounting system,0.0
+the lower frame,0.0
+the mouse pad,0.0
+the needle assembly,0.0
+the need,0.0
+the necktie,0.0
+the necklace,0.0
+the neck portion,0.0
+the neck,0.0
+the nacelle,0.0
+the muscle,0.0
+the multirotor platform,0.0
+the multiple shelf,0.0
+the multiple layer,0.0
+the multi-directional glider,0.0
+the mud flap assembly,0.0
+the moving target pattern,0.0
+the movement,0.0
+the midsole,0.0
+the microprocessor,0.0
+the method,0.0
+the metamaterial layer,0.0
+the main panel,0.0
+the main body portion,0.0
+the main body,0.0
+the magnetic strip,0.0
+the magnesium alloy body,0.0
+the machine water,0.0
+the machine connection bulkhead,0.0
+the machine,0.0
+the lumen,0.0
+the luggage,0.0
+the lug,0.0
+the lubricant sump,0.0
+the lower support bar,0.0
+the lower shelf,0.0
+the lower portion,0.0
+the maintenance worker profile,0.0
+the managing entity system,0.0
+the manifold,0.0
+the measured stimulus,0.0
+the metalized fabric,0.0
+the mesh configuration,0.0
+the merchant,0.0
+the medium content,0.0
+the mechanism,0.0
+the meat,0.0
+the maximum heat load,0.0
+the manifold head,0.0
+the mattress assembly,0.0
+the matting,0.0
+the material,0.0
+the massager,0.0
+the market indicator,0.0
+the manual labor,0.0
+e.g . change,0.0
+a base frame,0.0
+e .,0.0
+a leaf spring,0.0
+a light imaging and ranging system,0.0
+a light beam,0.0
+a lifting mechanism,0.0
+a lifting apparatus,0.0
+a lifting anchor assembly,0.0
+a lift,0.0
+a lid,0.0
+a license plate,0.0
+a lever,0.0
+a lens optic,0.0
+a length-adjustable suspension strap assembly,0.0
+a length,0.0
+a lender,0.0
+a leg section,0.0
+a left shoulder pad,0.0
+a light translucent or transparent material,0.0
+a likelihood,0.0
+a limit,0.0
+a load,0.0
+a locating device,0.0
+a localized cloud,0.0
+a loading side,0.0
+a loading opening,0.0
+a loading bar,0.0
+a load-bearing structure,0.0
+a list,0.0
+a line connector,0.0
+a liquid reservoir,0.0
+a liquid passage,0.0
+a liquid dispensing apparatus,0.0
+a lipstick arrangement,0.0
+a lip,0.0
+a liner,0.0
+a leash mechanism,0.0
+a leading edge support,0.0
+a location signal,0.0
+a leading edge,0.0
+a ladder,0.0
+a lacrosse stick,0.0
+a lacrosse head,0.0
+a knockdown,0.0
+a kite,0.0
+a kitchen appliance,0.0
+a kit,0.0
+a kinetic energy,0.0
+a key,0.0
+a joystick input,0.0
+a jewelry and accessory storage cabinet,0.0
+a jar,0.0
+a hydrokinetic torque coupling device,0.0
+a hydrokinetic torque converter,0.0
+a hydroelectric machine,0.0
+a lag bolt screw screw bolt,0.0
+a language learning system,0.0
+a laptop computer and/or computer case,0.0
+a launch vehicle,0.0
+a layer,0.0
+a lawn mower,0.0
+a laundry treating appliance,0.0
+a laundry basket,0.0
+a laundry bag assembly,0.0
+a launcher,0.0
+a launch configuration,0.0
+a laptop keyboard support,0.0
+a laterally extending rib,0.0
+a latching device,0.0
+a latch mechanism,0.0
+a laser subsystem,0.0
+a laser power oscillator,0.0
+a laser energy pulse,0.0
+a location,0.0
+a lock adapter assembly,0.0
+a frame member,0.0
+a major or outer pipe,0.0
+a medical fluid pumping machine,0.0
+a medical device support system,0.0
+a mechanism,0.0
+a mechanical firefighting device,0.0
+a mechanical connection,0.0
+a mean,0.0
+a mattress substrate,0.0
+a matrix material,0.0
+a mating part,0.0
+a match,0.0
+a master node,0.0
+a mask body,0.0
+a marking,0.0
+a manhole cover assembly,0.0
+a manhole cover,0.0
+a medical laser safety feedback apparatus,0.0
+a medical system,0.0
+a medicament,0.0
+a metering orifice,0.0
+a mid portion,0.0
+a mid,0.0
+a microwave safe bag,0.0
+a microwave oven deodorant device,0.0
+a method and saddle rack,0.0
+a method,0.0
+a metal plated fabric,0.0
+a medium,0.0
+a merchant id,0.0
+a merchant,0.0
+a memory,0.0
+a memorial urn,0.0
+a membrane,0.0
+a member,0.0
+a male,0.0
+a maintenance tool,0.0
+a lock body,0.0
+a main wellbore,0.0
+a lower body underwear garment,0.0
+a lower board component,0.0
+a low-friction side load,0.0
+a low aspect ratio flying wing,0.0
+a longitudinal edge,0.0
+a longitudinal direction,0.0
+a longitudinal axis,0.0
+a locomotive travelling,0.0
+a lockring,0.0
+a locking set screw,0.0
+a locking region,0.0
+a locking member,0.0
+a locking mechanism,0.0
+a lock position,0.0
+a lock plate,0.0
+a lower portion,0.0
+a lubricant,0.0
+a lumen,0.0
+a magnetization preparation rf module,0.0
+a main panel,0.0
+a main axis,0.0
+a mailto hyperlink,0.0
+a mailbox assembly,0.0
+a mailbox,0.0
+a mail status indication feature,0.0
+a magnetic unit,0.0
+a lure body,0.0
+a magnetic interaction,0.0
+a magnetic apparatus,0.0
+a magnet,0.0
+a machine tool,0.0
+a machine attachment point,0.0
+a machine,0.0
+a hydraulic system,0.0
+a hydraulic pump system,0.0
+a hydraulic hammer,0.0
+a generally transparent substrate sheet,0.0
+a grip,0.0
+a grill,0.0
+a green simulation apparatus,0.0
+a gravity,0.0
+a grate,0.0
+a grasping handle,0.0
+a grain dryer screen,0.0
+a glove main body,0.0
+a global computer network,0.0
+a glazing cap,0.0
+a glass product,0.0
+a given impression opportunity,0.0
+a geothermal production,0.0
+a genital shield,0.0
+a generator set,0.0
+a groove,0.0
+a ground surface,0.0
+a grouper apparatus,0.0
+a hammer,0.0
+a handhole,0.0
+a handbag,0.0
+a hand-holdable dispensing gun,0.0
+a hand-carried weed cutter,0.0
+a hammock,0.0
+a hammer strike,0.0
+a hair fastener,0.0
+a grout cleaning hand tool,0.0
+a hair brush,0.0
+a gutter piece,0.0
+a gusset,0.0
+a guide,0.0
+a guidance system,0.0
+a guidance sheath,0.0
+a generally trapezoidal shape,0.0
+a generally planar panel,0.0
+a hydraulic fluid flow control valve,0.0
+a generally longitudinal body,0.0
+a further embodiment,0.0
+a funnel portion,0.0
+a fulcrum or pivot point,0.0
+a fuel tank,0.0
+a fuel manifold segment,0.0
+a fuel injector system,0.0
+a fuel injector,0.0
+a fuel gas composition sensing system,0.0
+a fruit arrangement system,0.0
+a front wall,0.0
+a front scoop geometry,0.0
+a front portion,0.0
+a front piece,0.0
+a front face,0.0
+a front end,0.0
+a fuselage,0.0
+a future condition,0.0
+a game comprises,0.0
+a gauging apparatus,0.0
+a generally laid-flat configuration,0.0
+a generally hollow cylinder,0.0
+a generally c-shaped slider,0.0
+a generally annular body,0.0
+a gear ratio,0.0
+a gear assembly,0.0
+a gate,0.0
+a garment,0.0
+a gasket ring,0.0
+a gas turbine engine,0.0
+a gas spring and gas damper assembly,0.0
+a gas burner assembly,0.0
+a gas burner,0.0
+a gas block,0.0
+a handle,0.0
+a handle a connecting shaft,0.0
+a handle a curling rod,0.0
+a handle end,0.0
+a hollowed-out scoop,0.0
+a hollow needle dilator,0.0
+a hollow needle antenna,0.0
+a hollow impermeable housing,0.0
+a hollow guide tube,0.0
+a hollow chamber,0.0
+a hollow cavity,0.0
+a hollow body,0.0
+a holding unit,0.0
+a holder assembly,0.0
+a holder,0.0
+a hoistway,0.0
+a hoist system,0.0
+a hockey stick blade,0.0
+a hitch ball,0.0
+a hook,0.0
+a hook and loop fastener component,0.0
+a hook body,0.0
+a housing body,0.0
+a hydraulic cylinder mount,0.0
+a hydraulic cylinder,0.0
+a hydraulic control system,0.0
+a hydration support garment,0.0
+a hunting,0.0
+a hub,0.0
+a housing,0.0
+a hook portion,0.0
+a host,0.0
+a hose pump,0.0
+a horseshoe playing surface,0.0
+a horse rider,0.0
+a horizontal support,0.0
+a horizontal bar,0.0
+a hinged crank handle portion,0.0
+a hinge base mountable,0.0
+a hinge assembly,0.0
+a hauling truck,0.0
+a heads-up display or goggles glass,0.0
+a header frame,0.0
+a head rest,0.0
+a head protection system,0.0
+a head portion,0.0
+a head,0.0
+a harmful scenario,0.0
+a heat exchanger,0.0
+a hanging portion,0.0
+a hanging clothes divider,0.0
+a hanger hook body,0.0
+a hang point,0.0
+a handle section,0.0
+a handle protector,0.0
+a heat,0.0
+a heat exchanger body,0.0
+a hinge,0.0
+a heating ventilation and air cooling ( hvac ) assembly,0.0
+a high-pressure capable sealing apparatus,0.0
+a hem insert,0.0
+a helicopter,0.0
+a helical coil staple,0.0
+a height-adjusting mechanism,0.0
+a height adjustable component,0.0
+a heating system,0.0
+a heat exchanger tube,0.0
+a heating surface,0.0
+a heating cycle,0.0
+a heater,0.0
+a heatable tube,0.0
+a heat transfer medium,0.0
+a heat source,0.0
+a miffing machine vice,0.0
+a milk storage bag,0.0
+a minor or inner pipe,0.0
+a power module,0.0
+a principal axis,0.0
+a primary protective moisture barrier,0.0
+a primary housing,0.0
+a primary fluid,0.0
+a pressure support system,0.0
+a pressure sensor,0.0
+a pressure relief valve,0.0
+a preload,0.0
+a preform member,0.0
+a predetermined threshold,0.0
+a predetermined amount,0.0
+a pre-set angle,0.0
+a pre-hung door,0.0
+a power system,0.0
+a power supply,0.0
+a printed circuit board,0.0
+a printer,0.0
+a privacy fabric,0.0
+a propeller rotor,0.0
+a protective cover,0.0
+a protective bag,0.0
+a protected membrane roof system,0.0
+a prosthetic socket,0.0
+a propulsion unit,0.0
+a propulsion system gimbal assembly,0.0
+a prong,0.0
+a probe,0.0
+a projection,0.0
+a projectile,0.0
+a product,0.0
+a processor-based device,0.0
+a processor,0.0
+a process,0.0
+a power source,0.0
+a power developing apparatus,0.0
+a planetary gear transmission,0.0
+a power,0.0
+a pocket,0.0
+a plurality,0.0
+a plunger body,0.0
+a plunger assembly,0.0
+a plunger,0.0
+a plumbing fixture,0.0
+a plug element,0.0
+a plug,0.0
+a plenum,0.0
+a playing surface,0.0
+a player,0.0
+a platform,0.0
+a plate,0.0
+a plastic sheath,0.0
+a plant pot system,0.0
+a pod roof,0.0
+a point,0.0
+a polishing pad,0.0
+a portable therapeutic apparatus,0.0
+a post,0.0
+a position signal,0.0
+a position sensor,0.0
+a position,0.0
+a portion,0.0
+a portable wheelchair ramp assembly,0.0
+a portable electronic device retaining system,0.0
+a polishing tool,0.0
+a portable device,0.0
+a portable cooler,0.0
+a portable container,0.0
+a port,0.0
+a poppet valve assembly,0.0
+a polyfluoroacrylate,0.0
+a protective facemask,0.0
+a protective garment,0.0
+a provider,0.0
+a proximal end,0.0
+a recuperator transfer,0.0
+a rectangular fabric piece,0.0
+a recoil spring,0.0
+a recloseable zipper pouch,0.0
+a recloseable zipper,0.0
+a reciprocating pump,0.0
+a reciprocating internal combustion engine,0.0
+a reciprocating compressor,0.0
+a reciprocal recess,0.0
+a rechargeable battery,0.0
+a recessed portion,0.0
+a recess,0.0
+a receptacle stabilizer,0.0
+a receptacle,0.0
+a receiving portion,0.0
+a reel system,0.0
+a refrigerated compartment,0.0
+a refrigeration system,0.0
+a remote insect monitor,0.0
+a representation,0.0
+a replacement bearing,0.0
+a removable clip,0.0
+a removable canister,0.0
+a removable brush,0.0
+a remotely controllable valve,0.0
+a remote device orientation system,0.0
+a refrigeration unit,0.0
+a remote control,0.0
+a release cable,0.0
+a release,0.0
+a refueling tube,0.0
+a refrigerator appliance,0.0
+a refrigerator,0.0
+a rear pillar assembly,0.0
+a rear end,0.0
+a reamer,0.0
+a pump body,0.0
+a puppet,0.0
+a punching bag system,0.0
+a punching bag,0.0
+a pumping system,0.0
+a pump housing,0.0
+a pump body portion,0.0
+a pump,0.0
+a purchase request,0.0
+a pull tab venting system,0.0
+a pull tab,0.0
+a puck-striking body,0.0
+a proximal tibial resection position,0.0
+a proximal portion,0.0
+a proximal end portion,0.0
+a purchase identification,0.0
+a push button,0.0
+a real estate,0.0
+a rain chain,0.0
+a ratcheting tool,0.0
+a range finder device,0.0
+a range,0.0
+a ramp,0.0
+a rainbed,0.0
+a rain gutter,0.0
+a railcar door,0.0
+a quick-connect plumbing device,0.0
+a rail,0.0
+a radiation source,0.0
+a radially expandable downhole tool,0.0
+a radial impeller,0.0
+a racket apparatus,0.0
+a rack,0.0
+a planetary input gear,0.0
+a planetary carrier plurality,0.0
+a misting conduit,0.0
+a mounting plate,0.0
+a nasopharyngeal airway device,0.0
+a nasal cannula,0.0
+a nape hair shaving device,0.0
+a nanostructured membrane,0.0
+a nacelle structure,0.0
+a nacelle assembly,0.0
+a muzzle brake assembly,0.0
+a multitool portion,0.0
+a multi-wing manned or unmanned compact personal vertical takeoff,0.0
+a multi-fuel capable engine,0.0
+a mud flap,0.0
+a movement,0.0
+a movable sled,0.0
+a mounting unit,0.0
+a mounting system,0.0
+a neat compact configuration,0.0
+a neck portion,0.0
+a necktie,0.0
+a neurostimulation system,0.0
+a nipple,0.0
+a next value,0.0
+a next stage,0.0
+a new and novel draw bar,0.0
+a new and innovative transfer case support system,0.0
+a neutron porosity tool,0.0
+a network node,0.0
+a neckwear,0.0
+a network,0.0
+a needle wire trocar,0.0
+a needle guide device,0.0
+a needle device,0.0
+a needle assembly housing end,0.0
+a needle,0.0
+a mounting portion,0.0
+a mounting fastener,0.0
+a pizza container,0.0
+a mounting element,0.0
+a monitoring and feedback device,0.0
+a money clip,0.0
+a molded silicone form,0.0
+a moisture level,0.0
+a modular tent construction,0.0
+a modular kit,0.0
+a modular cooking system,0.0
+a modular conveyor belt,0.0
+a modular chassis adapter,0.0
+a modified nail clipper,0.0
+a modified fletching groove,0.0
+a mobile stage system,0.0
+a mobile device,0.0
+a mobile advertisement,0.0
+a mixing chamber,0.0
+a monthly calendar,0.0
+a motor,0.0
+a motor assembly,0.0
+a motorcycle connector frame,0.0
+a mounting device,0.0
+a mounting cylinder,0.0
+a mounting base,0.0
+a mounting assembly,0.0
+a mounting apparatus,0.0
+a mount,0.0
+a motor-stator,0.0
+a motor driven cutting head,0.0
+a motor-rotor,0.0
+a motor vehicle fuel,0.0
+a motor vehicle drive train,0.0
+a motor vehicle,0.0
+a motor rotor,0.0
+a motor powered milling machine vice clamping actuator,0.0
+a nipple shield,0.0
+a nocking point,0.0
+a non-contact seal assembly,0.0
+a non-failure normal braking mode,0.0
+a pet,0.0
+a personalized device,0.0
+a personal fall protection system,0.0
+a peristaltic pump,0.0
+a periphery,0.0
+a perimeter wall,0.0
+a perimeter region,0.0
+a perimeter,0.0
+a performance profile system,0.0
+a perforated carriage insert,0.0
+a penile prosthetic,0.0
+a pedal,0.0
+a payment system,0.0
+a payment account transaction,0.0
+a payment account,0.0
+a pet access door,0.0
+a pet costume,0.0
+a phallus retention garment,0.0
+a piston,0.0
+a pivoting front wheel support shaft,0.0
+a pivoting body,0.0
+a pivot pin,0.0
+a pivot axis,0.0
+a piston chamber,0.0
+a piston assembly,0.0
+a pipe engaging structure,0.0
+a physical therapy application,0.0
+a pin,0.0
+a piece,0.0
+a picture stand system,0.0
+a picture frame,0.0
+a physiological monitoring system,0.0
+a physical therapy unit,0.0
+a payload,0.0
+a paving machine,0.0
+a patient-worn wireless sensor,0.0
+a novel locking mechanism,0.0
+a one-way clutch,0.0
+a nursing bra,0.0
+a number,0.0
+a nozzle assembly,0.0
+a nozzle,0.0
+a novel protective shield,0.0
+a notification protocol,0.0
+a pack,0.0
+a notched end,0.0
+a nose portion,0.0
+a nose clearing assembly,0.0
+a normally closed valve structure,0.0
+a non-zero time period,0.0
+a non-magnetic surface,0.0
+a pacifier,0.0
+a package,0.0
+a patient interface device,0.0
+a palm grip protection strap,0.0
+a patient bed,0.0
+a patient & # 39 ; s vasculature,0.0
+a path,0.0
+a particular embodiment,0.0
+a partially spherical surface,0.0
+a panel,0.0
+a pallet assembly,0.0
+a package computing device,0.0
+a pair,0.0
+a paint can,0.0
+a paint,0.0
+a pad plate,0.0
+a packaging system,0.0
+a packaging machine,0.0
+a front,0.0
+a frame,0.0
+a reservoir,0.0
+a cold cap,0.0
+a combustion chamber,0.0
+a combustion air supply,0.0
+a combination seat belt restraint system cutter and glass break tool,0.0
+a combination loading system,0.0
+a combination,0.0
+a collection module,0.0
+a collar portion,0.0
+a collar,0.0
+a collapsible wheeled chassis,0.0
+a collapsible tote,0.0
+a collapsible shopping cart,0.0
+a collapsible container,0.0
+a collapsible canopy,0.0
+a collapsed position,0.0
+a collapsed configuration,0.0
+a combustion chamber door,0.0
+a combustion system,0.0
+a combustor,0.0
+a compressible air duct plug apparatus,0.0
+a computer-based method,0.0
+a computer system,0.0
+a compressor section,0.0
+a compressor condenser,0.0
+a compressor a combustion chamber,0.0
+a compressible portion,0.0
+a compressed configuration,0.0
+a comfortable way,0.0
+a composite closure,0.0
+a compartment,0.0
+a compacted feminine hygiene kit,0.0
+a communication interface,0.0
+a common game server communicates,0.0
+a common direct modulation source,0.0
+a cold water bypass valve,0.0
+a coin support surface,0.0
+a computer-implemented method computer program product,0.0
+a coin support plate,0.0
+a clamping stress,0.0
+a clamping body,0.0
+a clamped,0.0
+a clamp arm,0.0
+a clamp,0.0
+a circumferential groove,0.0
+a circumferential direction,0.0
+a circular opening,0.0
+a cinching routine,0.0
+a cinch clamp,0.0
+a cigar cutter,0.0
+a christmas tree,0.0
+a choke valve,0.0
+a child safety seat assembly,0.0
+a check valve,0.0
+a claw assembly,0.0
+a cleaning implement,0.0
+a cleansing antimicrobial or antiseptic agent,0.0
+a closed position,0.0
+a coin processing machine,0.0
+a coiled tubing string,0.0
+a coiled tubing injection and removal system,0.0
+a coating applicator,0.0
+a coaptation valve,0.0
+a closure member,0.0
+a closed configuration,0.0
+a clearance control system,0.0
+a clipping apparatus,0.0
+a clip-in base mount,0.0
+a clip retention,0.0
+a clip,0.0
+a client hydraulic salon chair,0.0
+a client,0.0
+a computer-implemented method,0.0
+a computerized matching system,0.0
+a fracturing fluid flow regulation assembly,0.0
+a control component,0.0
+a cooling apparatus,0.0
+a cooling and heating system,0.0
+a cooler body,0.0
+a cooktop appliance,0.0
+a cooking implement,0.0
+a cooking appliance,0.0
+a convoluted configuration,0.0
+a conveyor system,0.0
+a conveyer,0.0
+a convex edge,0.0
+a convertible tote bag assembly,0.0
+a convertible garment,0.0
+a conventional van,0.0
+a controller,0.0
+a control unit,0.0
+a cooling room portion,0.0
+a cooling system,0.0
+a copolymer,0.0
+a coupler,0.0
+a courier,0.0
+a coupon option server,0.0
+a coupling system,0.0
+a coupling sleeve,0.0
+a coupling portion,0.0
+a coupling assembly,0.0
+a cosmetic case,0.0
+a core,0.0
+a cosmetic,0.0
+a corresponding method,0.0
+a corresponding coil,0.0
+a corner portion,0.0
+a corn head,0.0
+a core passage,0.0
+a control surface,0.0
+a control circuit,0.0
+a computerized racing system,0.0
+a control,0.0
+a connector lumen,0.0
+a connector,0.0
+a connection mechanism,0.0
+a connection area,0.0
+a conformation,0.0
+a confocal tunable microwave illuminator,0.0
+a configurable upper surface,0.0
+a conduit system,0.0
+a conduit,0.0
+a condom,0.0
+a concrete form,0.0
+a concentrator device,0.0
+a concave side,0.0
+a concave edge,0.0
+a computing device,0.0
+a connector system,0.0
+a construction,0.0
+a construction method,0.0
+a container sleeve,0.0
+a contracted position,0.0
+a context-based offer,0.0
+a context,0.0
+a content scoring module,0.0
+a containerized cargo system,0.0
+a container system,0.0
+a container or beach bag,0.0
+a consumer,0.0
+a container opening device,0.0
+a container assembly,0.0
+a container,0.0
+a contact surface,0.0
+a contact list,0.0
+a contact,0.0
+a chassis,0.0
+a chamber opening,0.0
+a chain-driven rotating shelf carousel,0.0
+a blood pressure signal,0.0
+a bore,0.0
+a boot,0.0
+a bookholder apparatus,0.0
+a bone screw,0.0
+a bone,0.0
+a bolt,0.0
+a bolster,0.0
+a boiler,0.0
+a body portion,0.0
+a body member,0.0
+a body lumen,0.0
+a body,0.0
+a bodily fluid,0.0
+a bluetooth infra-red or wi-fi communication module,0.0
+a blower,0.0
+a bottom side,0.0
+a bottom surface,0.0
+a bottom wall,0.0
+a brace,0.0
+a bridge frame,0.0
+a breast pump,0.0
+a brassiere,0.0
+a brake system,0.0
+a brain,0.0
+a bracket,0.0
+a bra assembly,0.0
+a bowl,0.0
+a bra,0.0
+a boxing glove,0.0
+a box assembly,0.0
+a bowstring,0.0
+a bowling ball,0.0
+a bowl assembly,0.0
+a blow-out,0.0
+a block,0.0
+a chain,0.0
+a bleed valve assembly,0.0
+a bearing section,0.0
+a bearing housing,0.0
+a bearing gear,0.0
+a bearing assembly,0.0
+a bearing,0.0
+a beach chair,0.0
+a bat,0.0
+a basketball training device,0.0
+a basketball goal,0.0
+a basket,0.0
+a baseband radar signal processing module,0.0
+a base structure,0.0
+a base portion,0.0
+a base plate,0.0
+a base one or more sidewall,0.0
+a bed frame,0.0
+a bedside support,0.0
+a belt,0.0
+a bight,0.0
+a blade assembly,0.0
+a blade,0.0
+a bladder,0.0
+a bit body,0.0
+a bird feeder pole,0.0
+a biopsy unit,0.0
+a bid request,0.0
+a better thread engagement,0.0
+a bid price,0.0
+a biasing member,0.0
+a biasing force,0.0
+a bha,0.0
+a beverage container holder,0.0
+a beverage,0.0
+a bridge region,0.0
+a briny fluid,0.0
+a bristle,0.0
+a broom head section,0.0
+a cavity,0.0
+a cat suspension,0.0
+a caster wheel,0.0
+a casing string,0.0
+a casing,0.0
+a case,0.0
+a carton,0.0
+a cart,0.0
+a carrier tube,0.0
+a carrier device,0.0
+a carrier,0.0
+a carriage,0.0
+a cargo system,0.0
+a cargo management system,0.0
+a cargo basket,0.0
+a cavity wall,0.0
+a ceiling wall,0.0
+a center console system,0.0
+a central portion,0.0
+a cervical traction device,0.0
+a ceramic matrix,0.0
+a centrifugal clutch,0.0
+a central support member,0.0
+a central rode a cap,0.0
+a central region,0.0
+a central panel,0.0
+a centering mechanism,0.0
+a central layer,0.0
+a central force,0.0
+a central core,0.0
+a central bore,0.0
+a central aperture,0.0
+a centerline,0.0
+a cardholder,0.0
+a carabiner,0.0
+a car seat,0.0
+a bungee cord/strap,0.0
+a cabinet frame,0.0
+a cabinet,0.0
+a button,0.0
+a burner assembly,0.0
+a burner,0.0
+a buoyant inflatable device,0.0
+a bundle,0.0
+a cable,0.0
+a bumper,0.0
+a building construction panel assembly,0.0
+a building construction panel,0.0
+a buckle body,0.0
+a buckle,0.0
+a brush head section,0.0
+a cabinet portion,0.0
+a cable accumulator,0.0
+a capability,0.0
+a camshaft-drive element,0.0
+a cap,0.0
+a canopy shade system,0.0
+a canopy,0.0
+a canister assembly,0.0
+a cane,0.0
+a camshaft-drive tensioner system,0.0
+a camera,0.0
+a cable assembly,0.0
+a cam gear,0.0
+a cam,0.0
+a calf-stretching device,0.0
+a calendar function,0.0
+a cage element,0.0
+a cable puller assembly,0.0
+a cover,0.0
+a cover portion,0.0
+a covering,0.0
+a first fastener,0.0
+a first mounting interface,0.0
+a first metallic cage component,0.0
+a first member,0.0
+a first mating member,0.0
+a first line,0.0
+a first leg position,0.0
+a first layer,0.0
+a first jaw,0.0
+a first inspection frequency,0.0
+a first initial reading,0.0
+a first inflatable cushion,0.0
+a first identifier,0.0
+a first hole,0.0
+a first heat exchange loop,0.0
+a first goal,0.0
+a first mounting portion,0.0
+a first opening,0.0
+a first orientation,0.0
+a first segment,0.0
+a first slide channel,0.0
+a first side-wall,0.0
+a first side bar,0.0
+a first side,0.0
+a first shroud panel,0.0
+a first set,0.0
+a first request,0.0
+a first outer race,0.0
+a first position parameter,0.0
+a first position,0.0
+a first portion,0.0
+a first plate,0.0
+a first planetary-gear assembly,0.0
+a first part,0.0
+a first fork,0.0
+a first endplate,0.0
+a filtering face-piece respirator,0.0
+a first ending portion,0.0
+a first body,0.0
+a first bladder element,0.0
+a first attachment flange,0.0
+a first attachment,0.0
+a first and second end,0.0
+a first account identifier,0.0
+a firing pin,0.0
+a firefighting vehicle,0.0
+a firearm recoil pad assembly,0.0
+a firearm one or more actuator,0.0
+a firearm,0.0
+a fire water,0.0
+a fire,0.0
+a fingerprint,0.0
+a finger panel,0.0
+a first bore,0.0
+a first bottom edge,0.0
+a first case,0.0
+a first dish,0.0
+a first end portion,0.0
+a first end plate,0.0
+a first end member,0.0
+a first end,0.0
+a first electrode,0.0
+a first drive shaft,0.0
+a first cylindrical roll,0.0
+a first catalyst downstream,0.0
+a first cylindrical portion,0.0
+a first connector tab,0.0
+a first connector,0.0
+a first connection,0.0
+a first condition,0.0
+a first clamp portion,0.0
+a first slot,0.0
+a first socket,0.0
+a first strap,0.0
+a first surface,0.0
+a fluorine gas functionalized surface,0.0
+a fluid valve bonnet,0.0
+a fluid transfer system,0.0
+a fluid stream,0.0
+a fluid receiving space,0.0
+a fluid receiver,0.0
+a fluid pump,0.0
+a fluid motor,0.0
+a fluid impermeable material,0.0
+a fluid fracturing system,0.0
+a fluid dispenser,0.0
+a fluid coolant loop,0.0
+a fluid container,0.0
+a fluid conduit,0.0
+a fluid communication,0.0
+a flying boom,0.0
+a focused input,0.0
+a foldable chair,0.0
+a force,0.0
+a fracturing fluid,0.0
+a forward nacelle portion,0.0
+a form,0.0
+a forklift,0.0
+a fork,0.0
+a forceps,0.0
+a foot support,0.0
+a foldable expandable shade portion,0.0
+a foot section,0.0
+a food selection,0.0
+a food item,0.0
+a follower mechanism,0.0
+a folding pin,0.0
+a folding lounge chair,0.0
+a fluid circuit communicates,0.0
+a fluid,0.0
+a flow system,0.0
+a fishing line,0.0
+a flange,0.0
+a flag pole,0.0
+a fixture,0.0
+a fixing clamp,0.0
+a fixation plate,0.0
+a fitness balance device,0.0
+a fishing jig,0.0
+a flange base,0.0
+a first wheel,0.0
+a first wall,0.0
+a first vehicle component,0.0
+a first turbine portion,0.0
+a first transverse member,0.0
+a first trading order,0.0
+a flange adapter,0.0
+a flanged end,0.0
+a flow path,0.0
+a flexible pouch,0.0
+a flow duct,0.0
+a flow,0.0
+a flooring system,0.0
+a flooring material,0.0
+a float-wing,0.0
+a flexible sheet,0.0
+a flexible metal conduit,0.0
+a flavor,0.0
+a flexible member,0.0
+a flexible line,0.0
+a flexible inner liner,0.0
+a flexible fabric panel,0.0
+a flexible carrier,0.0
+a flexible cable,0.0
+a fin body,0.0
+a filter assembly,0.0
+a cpu,0.0
+a damper bracket assembly,0.0
+a desired boost pressure,0.0
+a deployed configuration platform,0.0
+a dental prosthetic assembly,0.0
+a delivery and authentication system,0.0
+a degradable cap,0.0
+a degradable bulb,0.0
+a deflection assembly,0.0
+a deer communication site,0.0
+a decoy buoy,0.0
+a deck,0.0
+a database,0.0
+a data transmitter,0.0
+a data transaction,0.0
+a data storage component,0.0
+a data processor,0.0
+a desired location,0.0
+a desired position,0.0
+a detent mechanism,0.0
+a disc harrow implement,0.0
+a dispenser mechanism,0.0
+a dispenser assembly,0.0
+a disk,0.0
+a dishwashing compartment,0.0
+a dishwasher,0.0
+a discount,0.0
+a direction,0.0
+a detonator,0.0
+a diaper changing assembly,0.0
+a diaper,0.0
+a device system,0.0
+a device body,0.0
+a device base,0.0
+a device,0.0
+a data model,0.0
+a cylindrical member,0.0
+a film wrap dispensing device,0.0
+a cylindrical drill bit,0.0
+a curved surface,0.0
+a curved profile,0.0
+a current fuel shut-off state,0.0
+a curling iron,0.0
+a cured concrete and stone bore working tool,0.0
+a cup,0.0
+a cue sport soccer game,0.0
+a cryogenic fluid,0.0
+a crossbow,0.0
+a crib set,0.0
+a crib,0.0
+a credit card,0.0
+a crank shaft coupler,0.0
+a craft,0.0
+a crab pot,0.0
+a curvilinear articulation,0.0
+a cushion frame,0.0
+a cushion member,0.0
+a cutting edge,0.0
+a cylindrical body,0.0
+a cylindrical base,0.0
+a cylinder chamber,0.0
+a cylinder,0.0
+a cutting wheel,0.0
+a cutting element,0.0
+a cutting deck,0.0
+a cushion portion,0.0
+a cutting blade,0.0
+a cutter,0.0
+a cutlery dispenser,0.0
+a cut end,0.0
+a customized crayon label,0.0
+a customer,0.0
+a dispensing assembly,0.0
+a dispensing cap,0.0
+a dispensing device,0.0
+a dispensing wand,0.0
+a faceplate-based platform,0.0
+a face mask,0.0
+a face,0.0
+a fabric-covered rigid housing,0.0
+a ergonomic index finger stabilization cradle,0.0
+a dynamically varying heat transfer medium supply,0.0
+a dural knife,0.0
+a dummy dawg,0.0
+a ductile phase,0.0
+a dual-lumen catheter,0.0
+a dual-inlet compressor,0.0
+a drywall panel,0.0
+a dryer opening,0.0
+a drug source,0.0
+a drive system,0.0
+a faceted plate,0.0
+a fairing a lock,0.0
+a fan assembly,0.0
+a fencing system,0.0
+a film,0.0
+a fill spout,0.0
+a fiberglass sump,0.0
+a fetal environment,0.0
+a ferrule,0.0
+a fender attachment portion,0.0
+a feeding tube,0.0
+a fastener,0.0
+a feed platform,0.0
+a faucet,0.0
+a fastening member,0.0
+a fastener body,0.0
+a fastener assembly,0.0
+a fastener arrangement,0.0
+a drive shaft,0.0
+a drive rod moveable relative,0.0
+a drive plate,0.0
+a distal portion,0.0
+a dog collar,0.0
+a docking station,0.0
+a dock leveler deck,0.0
+a divider panel,0.0
+a divider,0.0
+a distribution apparatus,0.0
+a distal femoral resection position,0.0
+a door,0.0
+a distal end,0.0
+a disposable waterproof oversock,0.0
+a display framework,0.0
+a display fabric,0.0
+a display,0.0
+a displacement member,0.0
+a doll,0.0
+a door frame,0.0
+a drive motor,0.0
+a dress,0.0
+a drive assembly,0.0
+a drinking straw,0.0
+a drinking cup,0.0
+a drink coaster,0.0
+a drill bit,0.0
+a drill,0.0
+a drawer assembly,0.0
+a door system kit,0.0
+a drain trap,0.0
+a drain surface,0.0
+a drain outlet,0.0
+a downward force,0.0
+a downhole tool,0.0
+a door threshold assembly,0.0
+a request,0.0
+a reservoir fluid,0.0
+dump location,0.0
+an end,0.0
+an environmentally sensitive container assembly,0.0
+an entrance,0.0
+an engine system,0.0
+an engine non-combusting condition,0.0
+an engine knock sensor,0.0
+an engine crankshaft,0.0
+an engine bleed source,0.0
+an engine,0.0
+an engager,0.0
+an engagement member,0.0
+an energy generator,0.0
+an endoluminal drug delivery device,0.0
+an endless track,0.0
+an end-user application,0.0
+an end effector assembly,0.0
+an ergonomic gripping surface,0.0
+an evaporative emission test,0.0
+an ex vivo,0.0
+an exercise machine monitoring,0.0
+an expandable bag,0.0
+an exit port,0.0
+an exhaust unit,0.0
+an exhaust gas stream,0.0
+an exhaust gas aftertreatment system,0.0
+an exhaust gas,0.0
+an exercise machine,0.0
+an example,0.0
+an exemplary,0.0
+an exchange prompt,0.0
+an exchange,0.0
+an example method,0.0
+an example embodiment,0.0
+an example apparatus,0.0
+an end effector,0.0
+an enclosure,0.0
+an expanded position,0.0
+an encapsulating device,0.0
+an elevated orientation,0.0
+an electrosurgical system,0.0
+an electrosurgical instrument,0.0
+an electrosurgical generator,0.0
+an electronic neutron generator arrangement,0.0
+an electronic device,0.0
+an electronic controller,0.0
+an electronic control unit,0.0
+an electronic coldpack,0.0
+an electronic cigarette,0.0
+an electromagnetic wave,0.0
+an electromagnetic pulse,0.0
+an electrode,0.0
+an electrical wire,0.0
+an electrical system,0.0
+an elevation value,0.0
+an elevator system,0.0
+an elongate body,0.0
+an elongated fluid conduit,0.0
+an embodiment,0.0
+an elongated tab,0.0
+an elongated support arm,0.0
+an elongated somewhat flexible generally hollow tube,0.0
+an elongated shaft,0.0
+an elongated member,0.0
+an elongated fabric belt,0.0
+an elongate member,0.0
+an elongated body,0.0
+an elongate support rail,0.0
+an elongate slot,0.0
+an elongate shovel,0.0
+an elongate shelf,0.0
+an elongate shaft,0.0
+an expanded configuration,0.0
+an expansion device,0.0
+aircraft interior,0.0
+an individual & # 39 ; s skin,0.0
+an injector head,0.0
+an injection tool,0.0
+an injection device,0.0
+an initial query,0.0
+an information-presentation structure,0.0
+an inflow liquid line,0.0
+an inflator coupled thereto,0.0
+an inflation machine,0.0
+an inflatable member,0.0
+an inflatable launchable toy system,0.0
+an inflatable launchable toy,0.0
+an infant bathing assembly,0.0
+an industrial vehicle,0.0
+an indoor grill,0.0
+an individual or multiple individual,0.0
+an inlet,0.0
+an inlet air flow,0.0
+an inlet conduit,0.0
+an inner side,0.0
+an insertion tool,0.0
+an input port,0.0
+an input member,0.0
+an input client device,0.0
+an inner wall,0.0
+an inner surface,0.0
+an inner race,0.0
+an inlet hole,0.0
+an inner housing,0.0
+an inner connector,0.0
+an inner cavity,0.0
+an inmate,0.0
+an inlet valve system,0.0
+an inlet piston controlled inlet port,0.0
+an individual module,0.0
+an individual,0.0
+an exposed surface,0.0
+an indicator,0.0
+an ice scoop/skimmer,0.0
+an ice making assembly,0.0
+an ice fishing device,0.0
+an ice cream dipping cabinet,0.0
+an eyelash extension strip,0.0
+an extractor,0.0
+an externally threaded member,0.0
+an exterior surface,0.0
+an exterior container,0.0
+an extension member,0.0
+an extensible recycling system,0.0
+an extendible sofa,0.0
+an extended position,0.0
+an extended configuration,0.0
+an extendable punch,0.0
+an ice tray,0.0
+an imaging transducer,0.0
+an impact-dependent portion,0.0
+an implementation,0.0
+an indication,0.0
+an indexed value,0.0
+an improvement,0.0
+an improved sensor,0.0
+an improved procurement system,0.0
+an improved method,0.0
+an implement support structure,0.0
+an impeller,0.0
+an implantable penile prosthesis,0.0
+an implantable mesh,0.0
+an implantable electrical medical device,0.0
+an implant device,0.0
+an implant,0.0
+an impermeable lid,0.0
+an electrical signal generator,0.0
+an electrical assembly,0.0
+an electric motor,0.0
+an advertisement,0.0
+an aluminum alloy,0.0
+an alignment slot,0.0
+an aligner,0.0
+an airplane,0.0
+an airfoil,0.0
+an aircraft engine,0.0
+an aircraft,0.0
+an airbag module,0.0
+an airbag cushion,0.0
+an air vent assembly,0.0
+an air supply channel,0.0
+an air inlet,0.0
+an air cushion cargo shuttle,0.0
+an agricultural harvester,0.0
+an aggregated chart,0.0
+an amount,0.0
+an amplitude control unit,0.0
+an amusement park system,0.0
+an animal kennel,0.0
+an anti-splash body,0.0
+an anti-microbial sponge device,0.0
+an anti-ligature restraint device,0.0
+an antenna associate,0.0
+an annular rotary knife blade,0.0
+an animal protective device,0.0
+an animal feed dispenser,0.0
+an anchor,0.0
+an animal,0.0
+an angulation,0.0
+an angled surface,0.0
+an angle,0.0
+an anchor member,0.0
+an anchor assembly,0.0
+an advertisement request,0.0
+an advanced virtual sport platform,0.0
+an electric generator,0.0
+an adjustable width brassiere strap,0.0
+an actuator,0.0
+an actual age,0.0
+an active phased array antenna,0.0
+an active mode,0.0
+an activating sleeve,0.0
+an acoustic receiver,0.0
+an acetabulum,0.0
+an accumulator assembly,0.0
+an accommodating intraocular lens,0.0
+an accessory drive pulley assembly,0.0
+an accessory,0.0
+an access opening,0.0
+an absorbent material,0.0
+ambient condition,0.0
+alternative embodiment,0.0
+an actuator controller,0.0
+an actuator mechanism,0.0
+an adapter one,0.0
+an adjustable interchangeable golf club,0.0
+an adjustable waist strap,0.0
+an adjustable truss hanger,0.0
+an adjustable strap,0.0
+an adjustable release pressure relief valve,0.0
+an adjustable reflecting device,0.0
+an adjustable portion control device,0.0
+an adjustable handle,0.0
+an adaptor bracket,0.0
+an adjustable coupling system,0.0
+an adjustable container,0.0
+an adhesive strip,0.0
+an adhesive opening,0.0
+an adhesive backing,0.0
+an additive manufacturing process,0.0
+an antibody-antigen moiety,0.0
+an aperture,0.0
+an apparatus,0.0
+an apparatus kit,0.0
+an azimuth value,0.0
+an axle assembly,0.0
+an axle,0.0
+an axis relative,0.0
+an axis extending,0.0
+an axis,0.0
+an axially displaceable turbine piston,0.0
+an axial,0.0
+an auxiliary strap,0.0
+an auxiliary power unit,0.0
+an auxiliary hybrid system,0.0
+an autonomous underwater vehicle,0.0
+an automotive vehicle,0.0
+an automobile,0.0
+an automated poultry skinning apparatus,0.0
+an device,0.0
+an earplug,0.0
+an earth-boring tool,0.0
+an elastic coupling mean,0.0
+an elastomeric seal member,0.0
+an elastomeric cap,0.0
+an elastic tubular body,0.0
+an elastic tube,0.0
+an elastic section,0.0
+an elastic portion,0.0
+an elastic cap gasket,0.0
+an ebb and flow hydroponics system,0.0
+an ejector pin,0.0
+an egg processing apparatus,0.0
+an egg lifting device,0.0
+an effort,0.0
+an educational teaching device,0.0
+an eccentric,0.0
+an autologous umbilical vein,0.0
+an auto-loading firearm,0.0
+an auto-injector device,0.0
+an armrest structure,0.0
+an articulable dispensing nozzle,0.0
+an article,0.0
+an artery,0.0
+an array,0.0
+an arrangement,0.0
+an aroma device,0.0
+an armor plate carrier,0.0
+an artificial neural network,0.0
+an arm,0.0
+an aquarium water treatment device,0.0
+an apron,0.0
+an appraisal management,0.0
+an appraisal job,0.0
+an apparatus system,0.0
+an articulating control assembly,0.0
+an assembly,0.0
+an audio component,0.0
+an attachment,0.0
+an attachment part,0.0
+an attachment panel,0.0
+an attachment member,0.0
+an attachment mean,0.0
+an attachment device,0.0
+an attachment arm,0.0
+an attachable sun visor system,0.0
+an assembly mechanism,0.0
+an associated opening,0.0
+an associated locking nut,0.0
+an assistive apparatus,0.0
+an asset confirmation platform,0.0
+an assessment device,0.0
+an assessment,0.0
+an inside,0.0
+an instructee,0.0
+an insulated inert gas purged cover,0.0
+at least two open section,0.0
+better reliability,0.0
+bearing compartment,0.0
+basic item,0.0
+baseball hat,0.0
+bank note,0.0
+back plate,0.0
+axial end,0.0
+auxiliary sleeve,0.0
+auxiliary seat,0.0
+automated rotary brush harvester,0.0
+automated message exchange,0.0
+automated forming mean,0.0
+audible noise,0.0
+at least underwear,0.0
+at least two second connection part,0.0
+big tote panel,0.0
+biometric transaction,0.0
+blockchain-based payment transaction alert,0.0
+bottom section,0.0
+candidate solution,0.0
+calibrating satellite signal,0.0
+cable tray redirector component speed assembly,0.0
+broad head cavity,0.0
+brewing coffee,0.0
+bracket arm,0.0
+both the sleeve,0.0
+blow-by gas,0.0
+both the parallel-circuit,0.0
+both the merchant,0.0
+both the first and second shaft,0.0
+both speed,0.0
+both a v-shaped cutting blade,0.0
+a base body,0.0
+at least two runner,0.0
+at least two membrane,0.0
+at least one extension,0.0
+at least two load bar engaging surface,0.0
+at least one pre-fabricated auditorium room,0.0
+at least one passage,0.0
+at least one opening therein,0.0
+at least one notch,0.0
+at least one lumen,0.0
+at least one loop,0.0
+at least one link,0.0
+at least one light source,0.0
+at least one inner port,0.0
+at least one inlet port,0.0
+at least one heating element,0.0
+at least one haptic,0.0
+at least one groove,0.0
+at least one front wheel,0.0
+at least one force-exerting element,0.0
+at least one product,0.0
+at least one proximal tunnel graft,0.0
+at least one pulley,0.0
+at least one vessel,0.0
+at least two divider,0.0
+at least some material,0.0
+at least part,0.0
+at least pair,0.0
+at least one wheel support assembly,0.0
+at least one wheel,0.0
+at least one unit-dose,0.0
+at least one remote server,0.0
+at least one tailgate striker connector,0.0
+at least one spring arm,0.0
+at least one smoke intake port,0.0
+at least one shared feature,0.0
+at least one screed flange,0.0
+at least one ring,0.0
+capital bid,0.0
+card data,0.0
+cartridge assembly,0.0
+cataract surgery method,0.0
+digital content,0.0
+differing color marking,0.0
+different sized armor,0.0
+different shape,0.0
+different parameter,0.0
+device system,0.0
+a base assembly,0.0
+deuterium-containing micro-fusion fuel particle,0.0
+deuterium-containing fuel material,0.0
+detachable beverage holder,0.0
+desired outcome institutional issue,0.0
+design feature,0.0
+described herein,0.0
+depict delivery location,0.0
+data representative,0.0
+direct gearing,0.0
+directed instruction,0.0
+directly invasive sensor,0.0
+disposal well,0.0
+due date,0.0
+dryer appliance,0.0
+drive tower,0.0
+drilling fluid,0.0
+drainage pipe,0.0
+drainage box,0.0
+disposal device,0.0
+a base apparatus,0.0
+disposable razor cartridge,0.0
+dispensing prescription pill,0.0
+dispensing material,0.0
+dispenser assembly,0.0
+disclosed herein,0.0
+disclosed embodiment,0.0
+data input,0.0
+a base member,0.0
+cylindrical clip,0.0
+cleaning solution,0.0
+component method,0.0
+communication receiver,0.0
+color value,0.0
+co-axially aligned cylinder block,0.0
+closure assembly,0.0
+closed position,0.0
+chock storage apparatus,0.0
+compressive loading,0.0
+chat advertisement,0.0
+changing condition,0.0
+certain specific embodiment,0.0
+certain exemplary embodiment,0.0
+certain embodiment,0.0
+central sympathetic tone,0.0
+compressed biomass piece,0.0
+computer program,0.0
+customized product,0.0
+control signal value,0.0
+current blood glucose data,0.0
+coupon option information,0.0
+corresponding cross support member,0.0
+correlated temporal pattern,0.0
+copper tubing,0.0
+cooking wall,0.0
+30 45 or 60 degree,0.0
+computer readable medium,0.0
+content volume sensing and content deduction logic,0.0
+contact sport,0.0
+configuration information,0.0
+condition indicator,0.0
+computing system,0.0
+computer-readable medium,0.0
+at least one external strap a cover structural panel,0.0
+at least one expanding segment,0.0
+an insulating shell,0.0
+an object wrapping assembly,0.0
+an optional removable handle,0.0
+an optional accessory rail,0.0
+an opposing second mounting portion,0.0
+an opposed pair,0.0
+an operator,0.0
+an operative edge,0.0
+an opening,0.0
+an open-cell compressible foam block,0.0
+an open position,0.0
+an open end,0.0
+an opaque material,0.0
+an online donation,0.0
+an online advertising platform online advertisement viewability metric,0.0
+an oil drain passage,0.0
+an offer,0.0
+an oral care,0.0
+an organized manner,0.0
+an organizing tool,0.0
+an outer seal housing,0.0
+an outlet,0.0
+an outer wall,0.0
+an outer tubular body,0.0
+an outer tube,0.0
+an outer telescopic member,0.0
+an outer surface,0.0
+an outer portion,0.0
+an orthopedic fixation assembly,0.0
+an outer plush body,0.0
+an outer perimeter,0.0
+an outer enclosure,0.0
+an outer cup,0.0
+an outer cap,0.0
+an outdoor living structure,0.0
+an ocular video headgear,0.0
+an object,0.0
+at least one end wall,0.0
+an ivus imaging system,0.0
+an interior layer,0.0
+an interior cavity,0.0
+an interior,0.0
+an interface,0.0
+an interchangeable home storage system,0.0
+an interbody portion,0.0
+an interactive surface,0.0
+an interactive pet toy,0.0
+an interactive digital cinema,0.0
+an intensity,0.0
+an intelligent database,0.0
+an integrated individual package,0.0
+an integrated access flap,0.0
+an insulin adjustment platform,0.0
+an insulation system,0.0
+an interior region,0.0
+an interior space,0.0
+an interior surface,0.0
+an introducer needle,0.0
+an iterative modeling process,0.0
+an item type,0.0
+an item,0.0
+an irrigation system,0.0
+an inwardly or outwardly-turned cuff,0.0
+an invention,0.0
+an intraocular lens,0.0
+an interior void,0.0
+an internet-hosted server,0.0
+an internal structure,0.0
+an internal product holding assembly,0.0
+an internal combustion engine,0.0
+an internal collapsible frame,0.0
+an internal chamber,0.0
+an outlet nozzle,0.0
+an outlet opening,0.0
+an output hub,0.0
+an output signal,0.0
+arm support,0.0
+argon beam capability,0.0
+approximately 60 degree,0.0
+approximately 180 degree,0.0
+a base engaging structure,0.0
+any suitable light,0.0
+any suitable configuration,0.0
+any manner,0.0
+any angle,0.0
+any,0.0
+another wearing configuration,0.0
+another vehicle,0.0
+another portland cement clinker,0.0
+another portion,0.0
+another object,0.0
+arthroscopic surgery,0.0
+a base bore,0.0
+assessment method,0.0
+at least one attachment point,0.0
+at least one coupling pin,0.0
+at least one controller,0.0
+at least one connector,0.0
+at least one color distortion,0.0
+at least one circular opening,0.0
+at least one cavity,0.0
+at least one arm rest,0.0
+associated circuitry and software process,0.0
+at least nine forward speed ratio,0.0
+at least high and low pressure output,0.0
+at least a trigger pin,0.0
+at least a portion,0.0
+at least a flexing portion,0.0
+associated method,0.0
+another instance,0.0
+another head piece,0.0
+another embodiment,0.0
+an rls algorithm and covariance matrix,0.0
+an underlying collection plate,0.0
+an underground housing,0.0
+an ultrasound transducer,0.0
+an ultrasonic blade,0.0
+an ultrapolar electrosurgery pencil,0.0
+an ultrapolar electrosurgery blade assembly,0.0
+an rfa or pma pcb,0.0
+an upper and a sole assembly,0.0
+an pressurized injectable mouthpiece,0.0
+an piece,0.0
+an pack carrier portion,0.0
+an overflow protection system,0.0
+an oven,0.0
+an output transfer gear first and second shaft member,0.0
+an unlocked position,0.0
+an upper bearing,0.0
+another aspect,0.0
+an upper portion,0.0
+animal waste,0.0
+angular displacement,0.0
+an upper surface,0.0
+an upper shell member,0.0
+an upper region,0.0
+an upper receiver,0.0
+an upper perimeter,0.0
+an upper board component,0.0
+an upper lip,0.0
+an upper lid,0.0
+an upper insulation board,0.0
+an upper face,0.0
+an upper end,0.0
+an upper edge,0.0
+alternate embodiment,0.0
+airbag assembly,0.0
+a reset,0.0
+a single opening,0.0
+a slider body,0.0
+a slider assembly,0.0
+a slide track,0.0
+a slide out assembly,0.0
+a slidable shelf,0.0
+a slidable shaft,0.0
+a slew drive,0.0
+a sleeve portion,0.0
+a sleeve member,0.0
+a sleeve,0.0
+a skylight assembly,0.0
+a skirt,0.0
+a skin care and shaving system,0.0
+a sink,0.0
+a single unit,0.0
+a slot,0.0
+a social platform inquiry,0.0
+a sock opening,0.0
+a solenoid operated pilot valve member,0.0
+a spacing arm,0.0
+a spacecraft reconfigurable,0.0
+a source,0.0
+a sound generator,0.0
+a sound emitting device,0.0
+a solution reservoir,0.0
+a sole structure,0.0
+a socket disc,0.0
+a sole,0.0
+a solar receiving structure,0.0
+a soil conditioner apparatus,0.0
+a soft metal material,0.0
+a socket wall,0.0
+a socket disc tool,0.0
+a single piece,0.0
+a single layer breathable front panel,0.0
+a sphero-cylindrical interior compartment,0.0
+a single flow stream,0.0
+a shock body,0.0
+a shock absorber,0.0
+a shingle,0.0
+a shelving rack system,0.0
+a shell member,0.0
+a shell,0.0
+a sheet,0.0
+a sheave,0.0
+a shear thickening fluid,0.0
+a shape memory alloy wire,0.0
+a shape,0.0
+a shaft connected thereto,0.0
+a shaft axis,0.0
+a shaft,0.0
+a shackle,0.0
+a shoe insole,0.0
+a shopping cart,0.0
+a shovel,0.0
+a sidewall,0.0
+a single continuous belt,0.0
+a simulated wheel object,0.0
+a simple hand operated device,0.0
+a sill deck,0.0
+a signal indicative,0.0
+a signal,0.0
+a side wall,0.0
+a shower enclosure,0.0
+a side collision event,0.0
+a side,0.0
+a shuttling valve,0.0
+a shroud,0.0
+a shower valve,0.0
+a shower head,0.0
+a special fish tank system,0.0
+a spider bushing,0.0
+air flow,0.0
+a stowage mechanism,0.0
+a subsea,0.0
+a submersible pneumatic canister pump system,0.0
+a subject,0.0
+a sub,0.0
+a stud,0.0
+a structure,0.0
+a structural or pressure-sensitive adhesive,0.0
+a structural ground,0.0
+a string,0.0
+a striking force,0.0
+a strike face,0.0
+a stretchable wrap,0.0
+a strap tie-down assembly,0.0
+a strap path,0.0
+a strap,0.0
+a subsea boost pump,0.0
+a substantially cylindrical inner shaft,0.0
+a substantially cylindrical side wall,0.0
+a substrate mounting clip,0.0
+a sun visor extension assembly,0.0
+a sun visor,0.0
+a sun shade panel,0.0
+a suitcase,0.0
+a suction plug,0.0
+a subterranean formation,0.0
+a substrate,0.0
+a substantially flat material,0.0
+a substantially vertical back wall,0.0
+a substantially rigid material,0.0
+a substantially rectangular cross section,0.0
+a substantially horizontally-oriented cooking surface,0.0
+a substantially horizontal member,0.0
+a substantially hollow interior,0.0
+a straight cutting blade,0.0
+a stowable floor panel,0.0
+a spinal implant,0.0
+a stove top cooking apparatus,0.0
+a stacked arrangement,0.0
+a stabilizing device,0.0
+a sprinkler head protector,0.0
+a sprinkler head,0.0
+a spring,0.0
+a spreader bar apparatus,0.0
+a sprayer gas inlet,0.0
+a sprayer device,0.0
+a sprayer,0.0
+a sport implement,0.0
+a sport glove,0.0
+a spoon,0.0
+a sponge holding system,0.0
+a split exhaust engine system,0.0
+a spine,0.0
+a stair climbing arrangement,0.0
+a stake,0.0
+a staking mechanism,0.0
+a steering position,0.0
+a storage container,0.0
+a storage compartment,0.0
+a stop pin,0.0
+a stop,0.0
+a step,0.0
+a stem,0.0
+a steering assist system,0.0
+a stand,0.0
+a steered position,0.0
+a stationary base,0.0
+a stationary and moveable crib,0.0
+a standing mat ball,0.0
+a standard toilet-tissue dispenser,0.0
+a stand-on land vehicle,0.0
+a set,0.0
+a service vehicle,0.0
+a service request,0.0
+a roll,0.0
+a saddle,0.0
+a rupture,0.0
+a rounded or non-rectangular top,0.0
+a rotor disk,0.0
+a rotor blade,0.0
+a rotor,0.0
+a rotation,0.0
+a rotatable column,0.0
+a rotary valve,0.0
+a rotary trimmer head assembly,0.0
+a rotary locking device,0.0
+a roof ridge vent system,0.0
+a roller mount,0.0
+a roller,0.0
+a rollback dump truck,0.0
+a saddlebag tray system,0.0
+a saliva ejector construction,0.0
+a salt cavern,0.0
+a screed,0.0
+a seat,0.0
+a sealing system,0.0
+a sealing assembly,0.0
+a seal element,0.0
+a seal assembly,0.0
+a seal,0.0
+a scissor boom system,0.0
+a salt cavern wall,0.0
+a scissor boom assembly,0.0
+a scenario,0.0
+a scallop region,0.0
+a sanitizing unit,0.0
+a sanitary product disposal device,0.0
+a sand bridge inducer,0.0
+a roll type,0.0
+a rod,0.0
+a service provider,0.0
+a rocket,0.0
+a retracted position,0.0
+a retractable table apparatus,0.0
+a retractable strap,0.0
+a retractable seat belt,0.0
+a retractable broom,0.0
+a retention mechanism,0.0
+a retainer ring,0.0
+a retail store,0.0
+a result,0.0
+a restrictor device,0.0
+a restaurant selection,0.0
+a respective upper and lower crib,0.0
+a respective angle,0.0
+a resiliently compressible material,0.0
+a resilient element,0.0
+a retrieval tether,0.0
+a return flow,0.0
+a reusable holder,0.0
+a rigid framework,0.0
+a risk,0.0
+a rinsing solution source,0.0
+a rinsing solution,0.0
+a ring screw assembly,0.0
+a ring release system,0.0
+a rigid structure,0.0
+a right shoulder pad,0.0
+a reverse direction component,0.0
+a riding lawn care vehicle,0.0
+a ridge board,0.0
+a rfid reader,0.0
+a revised version,0.0
+a review server,0.0
+a reversible seat assembly,0.0
+a seat bottom,0.0
+a seat front,0.0
+a seat pan,0.0
+a seat system,0.0
+a securing feature,0.0
+a securing device,0.0
+a secondary valve,0.0
+a secondary loop,0.0
+a secondary dispenser,0.0
+a second wheel,0.0
+a second turbine portion,0.0
+a second surface,0.0
+a second supply port,0.0
+a second strap,0.0
+a second stepped portion,0.0
+a second socket,0.0
+a second slide channel,0.0
+a second side bar,0.0
+a second side,0.0
+a security system,0.0
+a seed,0.0
+a select portion,0.0
+a sensor controller,0.0
+a server,0.0
+a series,0.0
+a separator portion,0.0
+a separate and removable solid insert,0.0
+a separable fastener,0.0
+a sensory training tool,0.0
+a sensor,0.0
+a selected discounted prepaid gift account,0.0
+a sensing system,0.0
+a semi-rigid reflector surface,0.0
+a self-purge system,0.0
+a self-propelled forage harvester corn head adapter,0.0
+a self-propelled forage harvester,0.0
+a self-compensating tension control device,0.0
+a second rotatable member,0.0
+a second ring portion,0.0
+a second pouch,0.0
+a second case,0.0
+a second electrode,0.0
+a second drive shaft,0.0
+a second direction,0.0
+a second device,0.0
+a second coverplate,0.0
+a second connector,0.0
+a second bladder element,0.0
+a second end member,0.0
+a second base,0.0
+a second autonomous vehicle,0.0
+a second arm,0.0
+a second annular radial flange,0.0
+a second annular flange,0.0
+a second abrasive surface,0.0
+a second end,0.0
+a second end plate,0.0
+a second position,0.0
+a second mating member,0.0
+a second portion,0.0
+a second plate,0.0
+a second planetary-gear assembly,0.0
+a second part,0.0
+a second outer race,0.0
+a second member,0.0
+a second material,0.0
+a second feature,0.0
+a second manifold cap,0.0
+a second load arm,0.0
+a second jaw,0.0
+a second heat exchange loop,0.0
+a second handle rotation attachment point,0.0
+a second handle riser portion,0.0
+a supercharger,0.0
+a supply,0.0
+a support,0.0
+a vehicle,0.0
+a vent,0.0
+a vending machine,0.0
+a veil,0.0
+a vehicle window,0.0
+a vehicle system,0.0
+a vehicle suspension system,0.0
+a vehicle seat belt system,0.0
+a vehicle seat,0.0
+a vehicle powered transport climate control system,0.0
+a vehicle hitch,0.0
+a vehicle frame,0.0
+a vehicle door,0.0
+a vehicle chassis,0.0
+a vehicle body structure,0.0
+a vehicle body,0.0
+a vertical extension,0.0
+a vessel,0.0
+a vessel penetration,0.0
+a wall anchor,0.0
+a water heater appliance,0.0
+a water bottle,0.0
+a waste container,0.0
+a waste collection compartment,0.0
+a washer,0.0
+a wall thickness,0.0
+a wall,0.0
+a video display,0.0
+a walker,0.0
+a waistband,0.0
+a volume,0.0
+a voltage differential,0.0
+a visor,0.0
+a visible display,0.0
+a vehicle action,0.0
+a vegetation trimmer,0.0
+a unit,0.0
+a vascular closure device,0.0
+a utensil,0.0
+a user-actuated foam pump mechanism,0.0
+a user selection,0.0
+a user interface,0.0
+a user identity,0.0
+a user event,0.0
+a user device,0.0
+a user & # 39 ; s nostril,0.0
+a user & # 39 ; s interaction,0.0
+a user & # 39 ; s head,0.0
+a user & # 39 ; s finger,0.0
+a user,0.0
+a urine collection apparatus,0.0
+a urination funnel assembly,0.0
+a urinary catheter,0.0
+a vacuum cleaner,0.0
+a valve,0.0
+a valve actuation apparatus,0.0
+a van ramp,0.0
+a variety,0.0
+a variant,0.0
+a variable-color region,0.0
+a variable displacement compressor,0.0
+a vapor,0.0
+a vane ring,0.0
+a valve support surface,0.0
+a valve assembly,0.0
+a valve seat,0.0
+a valve member,0.0
+a valve mechanism,0.0
+a valve inlet,0.0
+a valve housing,0.0
+a valve body,0.0
+a water inlet,0.0
+a water management system,0.0
+a water reservoir,0.0
+a water source,0.0
+active and passive heave compensation component,0.0
+absorbent material,0.0
+about 5 000-20000 mcd,0.0
+a zippered pocket,0.0
+a zipper,0.0
+a z-form region,0.0
+a writing instrument base,0.0
+a writing instrument,0.0
+a writing device,0.0
+a wristband,0.0
+a wrist support device,0.0
+a wrapper,0.0
+a wound visualization tool,0.0
+a work machine,0.0
+a wood,0.0
+active temperature control,0.0
+activity period,0.0
+adaptable and portable target impact detection,0.0
+adequate flow,0.0
+aerodynamic stability,0.0
+advertising content,0.0
+advertiser device user device,0.0
+adjustment mechanism,0.0
+adjustably binding a strap,0.0
+adhesive-backed material,0.0
+additionally mathematical expression input data,0.0
+adaptive learning,0.0
+additionally algorithm,0.0
+additionally a method,0.0
+additional sealing,0.0
+additional item,0.0
+additional information,0.0
+additional embodiment,0.0
+a wireless control system,0.0
+a wire stripping machine,0.0
+a wire rope cable,0.0
+a wearable holder,0.0
+a weight,0.0
+a wedge,0.0
+a website,0.0
+a web,0.0
+a weather protection system,0.0
+a wearable monitoring device,0.0
+a wearable harness,0.0
+a weight element,0.0
+a wearable device,0.0
+a wave energy converter,0.0
+a waterproof seal,0.0
+a watering assembly,0.0
+a water-impermeable panel,0.0
+a water treatment unit,0.0
+a weight bar,0.0
+a weightlifting apparatus,0.0
+a wiper seal,0.0
+a whipstock/bha assembly,0.0
+a wing,0.0
+a windshield wiper system,0.0
+a window ac unit,0.0
+a window,0.0
+a wind turbine,0.0
+a wide variety,0.0
+a whipstock,0.0
+a welding torch,0.0
+a wheeled bag holder,0.0
+a wheel brake,0.0
+a wheel,0.0
+a wellbore sealing system,0.0
+a wellbore,0.0
+a well tool,0.0
+a urinal anti-splash device,0.0
+a unique design,0.0
+a support flange,0.0
+a tacky thermoplastic rubber,0.0
+a technique,0.0
+a technical indicator,0.0
+a tea brewing apparatus,0.0
+a tattoo machine,0.0
+a target impact detector,0.0
+a target career goal,0.0
+a target,0.0
+a tapered shape,0.0
+a tapered cylindrical inside surface,0.0
+a tapered bore,0.0
+a tape roll,0.0
+a tape dispensing apparatus,0.0
+a tank or underground location,0.0
+a tank,0.0
+a tamper-evident closure,0.0
+a telescopic boom section,0.0
+a television relative,0.0
+a tether,0.0
+a third party,0.0
+a ticket vendor,0.0
+a tibial insert,0.0
+a thumb and finger insert,0.0
+a thrust reverser system,0.0
+a threaded shaft hexagonal head,0.0
+a threaded inner surface,0.0
+a third embodiment,0.0
+a therapeutic device,0.0
+a thinned base substrate,0.0
+a thermostat,0.0
+a thermistor,0.0
+a thermally-activated material,0.0
+a thermal processing chamber,0.0
+a thermal management system,0.0
+a tail portion,0.0
+a tabletop,0.0
+a u-shaped semi-rigid element,0.0
+a table-like support,0.0
+a surgical access device,0.0
+a surface or bed frame,0.0
+a surface,0.0
+a supportive tension,0.0
+a supporting surface,0.0
+a supported strap twist device,0.0
+a support surface,0.0
+a support structure,0.0
+a support strap,0.0
+a support ring,0.0
+a support pad,0.0
+a support member,0.0
+a support garment,0.0
+a support frame actuator,0.0
+a support frame,0.0
+a surgical apparatus,0.0
+a surgical device,0.0
+a surgical imaging system,0.0
+a switchable gas control valve,0.0
+a table portion,0.0
+a system method,0.0
+a system machine device,0.0
+a system,0.0
+a syringe barrel,0.0
+a syringe,0.0
+a switch,0.0
+a surgical instrument,0.0
+a swimsuit bottom,0.0
+a swimming pool leveling system,0.0
+a swim fin assembly,0.0
+a suspension system,0.0
+a surgical suturing device,0.0
+a surgical ligation clip,0.0
+a tie down strap,0.0
+a tilt-up concrete structure,0.0
+a time,0.0
+a tire,0.0
+a trigger time,0.0
+a trigger signal,0.0
+a trigger operated pump,0.0
+a trigger mechanism storage,0.0
+a trigger,0.0
+a trenching foot,0.0
+a tree stand,0.0
+a tree,0.0
+a treatment device system,0.0
+a treadmill,0.0
+a transport refrigeration system,0.0
+a transmitter,0.0
+a transmission gearing arrangement,0.0
+a transmission,0.0
+a transition portion,0.0
+a trolley beam,0.0
+a tub,0.0
+a tube,0.0
+a turbine shell,0.0
+a typical stirling engine,0.0
+a type,0.0
+a two-stroke opposed-piston engine,0.0
+a turbofan engine,0.0
+a turbocharger system,0.0
+a turbocharger,0.0
+a turbine housing,0.0
+a tubular enclosure,0.0
+a turbine engine,0.0
+a turbine assembly,0.0
+a turbine,0.0
+a tubular segment,0.0
+a tubular outer housing,0.0
+a tubular inner housing,0.0
+a transition coupler,0.0
+a transformer,0.0
+a transaction request,0.0
+a tool assembly,0.0
+a top center opening,0.0
+a toothbrush head,0.0
+a toothbrush,0.0
+a tool support structure,0.0
+a tool rail,0.0
+a tool holder,0.0
+a tool,0.0
+a top panel,0.0
+a tongue rest,0.0
+a toll interrogation device,0.0
+a toll identification device,0.0
+a toilet seat hinge,0.0
+a toe end,0.0
+a tire traction assembly,0.0
+a top dripping and bottom wicking assembly,0.0
+a top portion,0.0
+a transaction,0.0
+a track,0.0
+a trampoline frame pad system,0.0
+a training program,0.0
+a train,0.0
+a trailing edge,0.0
+a trailer coupler,0.0
+a trailer assembly,0.0
+a toy vehicle system,0.0
+a top side,0.0
+a towel,0.0
+a torque wrench,0.0
+a torque converter,0.0
+a torque bump,0.0
+a top wall,0.0
+a top surface,0.0
+-,0.0
