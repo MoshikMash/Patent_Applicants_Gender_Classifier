@@ -1,5 +1,5 @@
 {
-  "evaluation_mode": true,
+  "evaluation_mode": false,
   "possible_tasks": [
     "make_embeddings",
     "grid_search",
@@ -69,8 +69,9 @@
     "clustering_flag": false,
     "topic_summarization": false,
     "find_topics": false,
-    "create_topic_features": false,
-    "training": true
+    "create_topic_features": true,
+    "training": true,
+    "grid_search": true
   },
   "umap": {
     "n_neighbors": 10,
@@ -86,5 +87,9 @@
     "number_of_centroids_per_cluster": 2,
     "number_of_nouns_per_cluster": 3,
     "features_to_drop": ["uspc_class"]
+  },
+  "topic_modeling_training_parameters": {
+    "n_estimators": 500,
+    "max_depth": 150
   }
 }
