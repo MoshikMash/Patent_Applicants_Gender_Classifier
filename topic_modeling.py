@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import umap
 from blingfire import text_to_sentences
+from imblearn.under_sampling import RandomUnderSampler
 from matplotlib import pyplot as plt
 from sentence_transformers import SentenceTransformer
 import hdbscan
@@ -40,7 +41,7 @@ def topic_modeling(config):
             df = pd.read_csv(config['paths']['all_data_path'])
 
             if config['only_Mech_Engr_and_Trans_records']:
-                df = df[df['Parent_Catgeory'].isin(['Mech_Engr', 'Trans'])]
+                df = df[df['Parent_Category'].isin(['Mech_Engr', 'Trans'])]
 
             # Split the data into train and test sets
             df_train, df_test = train_test_split(df, test_size=config['test_size'])
@@ -190,7 +191,7 @@ def topic_modeling(config):
                     'median_word_length', 'avg_word_length', 'skew_word_length',
                     'characters_per_word', 'syll_per_word', 'words_per_sentence', 'sentences_per_paragraph',
                     'type_token_ratio',
-                    'syllables', 'sentences', 'long_words', 'complex_words', 'one_if_male', 'Parent_Catgeory',
+                    'syllables', 'sentences', 'long_words', 'complex_words', 'one_if_male', 'Parent_Category',
                     'uspc_class', 'one_if_patented'
                 ]
             )
@@ -211,10 +212,15 @@ def topic_modeling(config):
 
         if config['topic_modeling_flags']['training']:
             # Train a random forest classifier
-            rf_classifier = RandomForestClassifier(n_estimators=1000, random_state=config['random_state'])
+            rf_classifier = RandomForestClassifier(
+                n_estimators=config['topic_modeling_training_parameters']['n_estimators'],
+                max_depth=config['topic_modeling_training_parameters']['max_depth'],
+                random_state=config['random_state'])
             result_df = result_df[feature_vector]
+
+            # Encode categorical variables
             le_category = LabelEncoder()
-            result_df['Parent_Catgeory'] = le_category.fit_transform(result_df['Parent_Catgeory'])
+            result_df['Parent_Catgeory'] = le_category.fit_transform(result_df['Parent_Category'])
             le_uspc_class = LabelEncoder()
             result_df['uspc_class'] = le_uspc_class.fit_transform(result_df['uspc_class'].astype(str))
             le_patent = LabelEncoder()
@@ -224,8 +230,15 @@ def topic_modeling(config):
                 feature_vector = [x for x in feature_vector if
                                   x not in config['topic_summarization']['features_to_drop']]
             feature_vector.remove('one_if_patented')
-            rf_classifier.fit(result_df[feature_vector], result_df['one_if_patented'])
 
+            # Under-sample the target variable
+            rus = RandomUnderSampler(random_state=config['random_state'])
+            X_resampled, y_resampled = rus.fit_resample(result_df[feature_vector], result_df['one_if_patented'])
+
+            # Fit the model
+            rf_classifier.fit(X_resampled, y_resampled)
+
+            # Save the trained model
             path = config['paths']['topic_modeling_rf_classifier_path']
             with open(path, 'wb') as file:
                 pickle.dump(rf_classifier, file, protocol=pickle.HIGHEST_PROTOCOL)
@@ -253,6 +266,7 @@ def topic_modeling(config):
             os.makedirs(results_folder_path, exist_ok=True)
             importance_df.to_csv(results_folder_path / 'feature_importances.csv', index=False)
 
+            print(f'under sampled date length: {len(y_resampled)}')
             # Confusion Matrix
             cm = confusion_matrix(result_df['one_if_patented'], y_pred)
             # Since the target is binary (0 or 1), define the class names
@@ -270,17 +284,24 @@ def topic_modeling(config):
             plt.show()
     else:
         # Evaluation
+        # Load all phrases
         with open(config['paths']['topic_modeling_all_phrases_path'], 'rb') as handle:
             all_phrases = pickle.load(handle)
+
         # Create a CountVectorizer object
         vectorizer = CountVectorizer(vocabulary=all_phrases, binary=True)
+
         # Fit the CountVectorizer on phrases
         vectorizer.fit(all_phrases)
 
+        # Load the test data
         df = pd.read_csv(config['paths']['data_topping_modeling_test_data_path'])
+
+        # Lemmatize the clean abstracts
         lemmatizer = WordNetLemmatizer()
         df['lemmatized_clean_abstract'] = df['clean_abstract'].apply(
-            lambda x: ' '.join([lemmatizer.lemmatize(word.lower()) for word in nltk.word_tokenize(x)]))
+            lambda x: ' '.join([lemmatizer.lemmatize(word.lower()) for word in nltk.word_tokenize(x)])
+        )
 
         # Transform the abstract column into a sparse matrix of token counts
         one_hot_encoded = vectorizer.transform(df['lemmatized_clean_abstract'])
@@ -293,31 +314,40 @@ def topic_modeling(config):
         df = df.reset_index(drop=True)
         one_hot_df = one_hot_df.reset_index(drop=True)
         test_df = pd.concat([df, one_hot_df], axis=1)
-        # Make predictions on the test set
-        with open(config['paths']['topic_modeling_rf_classifier_path'], 'rb') as handle:
-            rf_classifier = pickle.load(handle)
-        with open(config['paths']['topic_modeling_feature_vector_path'], 'rb') as handle:
-            feature_vector = pickle.load(handle)
 
+        # Encode categorical features
         le_category = LabelEncoder()
-        test_df['Parent_Catgeory'] = le_category.fit_transform(test_df['Parent_Catgeory'])
+        test_df['Parent_Category'] = le_category.fit_transform(test_df['Parent_Category'])
         le_uspc_class = LabelEncoder()
         test_df['uspc_class'] = le_uspc_class.fit_transform(test_df['uspc_class'].astype(str))
         le_patent = LabelEncoder()
         test_df['one_if_patented'] = le_patent.fit_transform(test_df['one_if_patented'])
 
+        # Load the classifier and feature vector
+        with open(config['paths']['topic_modeling_rf_classifier_path'], 'rb') as handle:
+            rf_classifier = pickle.load(handle)
+        with open(config['paths']['topic_modeling_feature_vector_path'], 'rb') as handle:
+            feature_vector = pickle.load(handle)
+
+        # Remove specified features
         if config['topic_summarization']['features_to_drop']:
-            feature_vector = [x for x in feature_vector if
-                              x not in config['topic_summarization']['features_to_drop']]
+            feature_vector = [x for x in feature_vector if x not in config['topic_summarization']['features_to_drop']]
         feature_vector.remove('one_if_patented')
-        y_pred = rf_classifier.predict(test_df[feature_vector])
+
+        # Apply undersampling
+        rus = RandomUnderSampler(random_state=42)
+        X_resampled, y_resampled = rus.fit_resample(test_df[feature_vector], test_df['one_if_patented'])
+
+        # Make predictions on the resampled test set
+        y_pred = rf_classifier.predict(X_resampled)
 
         # Evaluate the performance of the model
-        print(classification_report(test_df['one_if_patented'], y_pred))
+        print(classification_report(y_resampled, y_pred))
 
         # Confusion Matrix
-        cm = confusion_matrix(test_df['one_if_patented'], y_pred)
-        # Since the target is binary (0 or 1), define the class names
+        cm = confusion_matrix(y_resampled, y_pred)
+
+        # Define class names
         class_names = ['not patented', 'patented']  # Adjust these names as needed
 
         # Convert the confusion matrix to a DataFrame for better readability
