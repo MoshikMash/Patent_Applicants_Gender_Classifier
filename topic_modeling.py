@@ -15,7 +15,7 @@ import hdbscan
 from sentence_transformers.util import pytorch_cos_sim
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, KFold, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 
 from LexRank import degree_centrality_scores
@@ -220,7 +220,7 @@ def topic_modeling(config):
 
             # Encode categorical variables
             le_category = LabelEncoder()
-            result_df['Parent_Catgeory'] = le_category.fit_transform(result_df['Parent_Category'])
+            result_df['Parent_Category'] = le_category.fit_transform(result_df['Parent_Category'])
             le_uspc_class = LabelEncoder()
             result_df['uspc_class'] = le_uspc_class.fit_transform(result_df['uspc_class'].astype(str))
             le_patent = LabelEncoder()
@@ -282,6 +282,79 @@ def topic_modeling(config):
             plt.xlabel('Predicted')
             plt.title('Confusion Matrix')
             plt.show()
+    if config['topic_modeling_flags']['grid_search']:
+        # Define the parameter grid for grid search
+        param_grid = {
+            'n_estimators': [200, 300, 400],
+            'max_depth': [50, 100, 200, 300, 400]
+        }
+
+        result_df = result_df[feature_vector]
+
+        # Encode categorical variables
+        le_category = LabelEncoder()
+        result_df['Parent_Category'] = le_category.fit_transform(result_df['Parent_Category'])
+        le_uspc_class = LabelEncoder()
+        result_df['uspc_class'] = le_uspc_class.fit_transform(result_df['uspc_class'].astype(str))
+        le_patent = LabelEncoder()
+        result_df['one_if_patented'] = le_patent.fit_transform(result_df['one_if_patented'])
+
+        if config['topic_summarization']['features_to_drop']:
+            feature_vector = [x for x in feature_vector if x not in config['topic_summarization']['features_to_drop']]
+        feature_vector.remove('one_if_patented')
+
+        # Set up KFold cross-validation
+        kf = KFold(n_splits=5, shuffle=True, random_state=config['random_state'])
+
+        # Initialize the random forest classifier
+        rf_classifier = RandomForestClassifier(random_state=config['random_state'])
+
+        # Perform grid search with cross-validation
+        grid_search = GridSearchCV(estimator=rf_classifier, param_grid=param_grid, cv=kf, n_jobs=-1, scoring='accuracy',
+                                   verbose=1)
+
+        # Under-sample the target variable
+        rus = RandomUnderSampler(random_state=config['random_state'])
+        X_resampled, y_resampled = rus.fit_resample(result_df[feature_vector], result_df['one_if_patented'])
+
+        # Fit the grid search
+        grid_search.fit(X_resampled, y_resampled)
+
+        # Get the best parameters and model
+        best_params = grid_search.best_params_
+        best_rf_classifier = grid_search.best_estimator_
+
+        # Save the best model
+        path = config['paths']['topic_modeling_rf_classifier_path']
+        with open(path, 'wb') as file:
+            pickle.dump(best_rf_classifier, file, protocol=pickle.HIGHEST_PROTOCOL)
+            print(f'{path} was saved')
+
+        # Evaluate the model using the entire dataset
+        y_pred = best_rf_classifier.predict(result_df[feature_vector])
+        print(classification_report(result_df['one_if_patented'], y_pred))
+
+        # Get feature importances
+        feature_importances = best_rf_classifier.feature_importances_
+
+        # Create a DataFrame to save the feature importances
+        importance_df = pd.DataFrame({
+            'Feature': feature_vector,
+            'Importance': feature_importances
+        })
+
+        # Sort the DataFrame by importance (optional)
+        importance_df = importance_df.sort_values(by='Importance', ascending=False)
+
+        # Save to a CSV file
+        results_folder_path = pathlib.Path(config['paths']['results_folder_path']) / 'topic_modeling'
+        os.makedirs(results_folder_path, exist_ok=True)
+        importance_df.to_csv(results_folder_path / 'feature_importances.csv', index=False)
+
+        print(f'Best parameters found: {best_params}')
+        print(f'Confusion Matrix after cross-validation:')
+        cm = confusion_matrix(result_df['one_if_patented'], y_pred)
+        print(cm)
     else:
         # Evaluation
         # Load all phrases
